@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: https://github.com/WillEnyong
+- github account: WillEnyong
 - Email: andabelakang27@gmail.com
 - Arweave Address: mrS8R97AcNogiC5DJcaQ7NwGPTjAL471u8OEsIQYrHw
 - ETH Address: 0xa05c61521C1ef0C9a2f82F44F24e4732bDF45d92
