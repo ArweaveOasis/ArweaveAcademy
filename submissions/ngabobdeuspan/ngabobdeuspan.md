@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: hiied99 
+- github account: ngabobdeuspan
 - Email: mohammadwahiiediyanto009@gmail.com 
 - Arweave Address: i2AbAlPK8eX1zuRV4kk5rEnGY8vIhUFH8SymvWJHAEA 
 - ETH Address: 0x536B5Dc5Bb91216B40a98eea4c57f8BBE24ea7d4 
