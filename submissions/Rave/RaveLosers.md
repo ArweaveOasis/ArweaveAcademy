@@ -9,4 +9,6 @@
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
- i'am have biggest enthusiast in developing dApps in many chain in the web3 circle, im curently working as freelance in web3 like become beta tester, marketing, etc
+Hello, Iam Rave! 
+
+ Iam have biggest enthusiast in developing dApps in many chain in the web3 circle, iam curently working as freelance in web3 like become beta tester, marketing, etc. Iam working as freelance in web3 has been 3 years, and i cant get a real life job because the pandemic in that time so i try become freelance in web3 more specific in cryptocurrency, from that i cant leave this kinda job and iam still doing this job until right now. 
