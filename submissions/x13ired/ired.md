@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: DedeSN
+- github account: @DedeSN
 - Email: hasanahariani47@gmail.com
 - Arweave Address: 7sVKAkbzvyWyMCYUiMSvaeeidGnSnVLEe4aA1OT3yDo
 - ETH Address: 0x17f0144cfd85383A64c6cE1b25552D65028ebA91
