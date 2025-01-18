@@ -2,10 +2,10 @@
 
 ### Personal information
 
-- github account: 
-- Email: 
-- Arweave Address: 
-- ETH Address: 
+- github account: adnialaydrus 
+- Email: adnialyds30@gmail.com
+- Arweave Address: -WzI1U9j6hus_F_3JX-5hbiYmHWesjxDxtvAnLrZNkc
+- ETH Address: 0xa768D8703A66F06bA398E785fBA37Cb39AE14e8e
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
