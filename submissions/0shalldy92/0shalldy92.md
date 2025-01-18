@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: 0shalldy92
+- github account: shalldy92
 - Email: shalldy.for.crypto@gmail.com
 - Arweave Address: 2QKfn89PY_UJLhMRTkkCOKY7K-o-rr00AZCtMHhqpiA
 - ETH Address: 0x3b4e169CEdFB7D9c773d6C1AC27723b0c56305a3
