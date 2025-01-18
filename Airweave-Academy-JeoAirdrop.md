@@ -1,1 +1,0 @@
--cd Airweave-Academy-JeoAirdrop
