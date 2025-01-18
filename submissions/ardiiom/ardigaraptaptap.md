@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: ardiiom  
+- github account: https://github.com/ardiiom
 - Email: ardiansyah219912@gmail.com
 - Arweave Address: g_l9eOQCwId0Ai8yIk7KbLOCGPK6KERTPVwETAOC4ww
 - ETH Address: 0xF9ba274914E2A32f10b72337243b5a4A1a8AC3a4
