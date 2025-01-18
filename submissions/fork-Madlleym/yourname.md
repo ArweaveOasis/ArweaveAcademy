@@ -2,10 +2,10 @@
 
 ### Personal information
 
-- github account:
-- Email:
-- Arweave Address:
-- ETH Address:
+- github account:Madleyym
+- Email:tryandaasu@gmail.com
+- Arweave Address:TP2PD4iaY57X68nd75CpMOHaXtBK2nMVSVyslBGLzyU
+- ETH Address:0xAeabadae3Cc5f1d1A5De4903a195BF2796dF3481
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
