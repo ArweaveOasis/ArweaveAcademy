@@ -3,7 +3,7 @@
 
 ### Personal information
 
-- github account: @Hyojiro
+- github account: @Hyojiro/ https://github.com/Hyojiro
 - Email: watanabehyoo@gmail.com
 - Arweave Address: Ipp-L6f0rxsKCNsMsL5gpT6AfmawAgOrBLMSxwB5BZI
 - ETH Address: 0xFB2f55AD38D6520EA98bE7E3EDaCa4fa5cAe3B8C
