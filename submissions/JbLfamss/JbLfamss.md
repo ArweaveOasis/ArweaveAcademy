@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: @JbLfamss
+- github account: JbLfamss
 - Email: okidwisaputraaa@gmail.com
 - Arweave Address: PvI1zwfEN9I7uDW1mY95Q2y4jpy8a3orrsNS3x9VlTo
 - ETH Address: 0xc4C1ff537Ce01527153bc8f8e994E21e7F153240
