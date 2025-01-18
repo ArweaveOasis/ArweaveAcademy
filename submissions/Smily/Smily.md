@@ -2,10 +2,10 @@
 
 ### Personal information
 
-- github account: 
-- Email: 
-- Arweave Address: 
-- ETH Address: 
+- github account: Ra-inskyy
+- Email: leemkml1@gmail.com
+- Arweave Address: om6UTMpUw8AFBiwmAGNk0IJ3aZSVBl8heTztWv8InmM
+- ETH Address: 0xDA577BCa91Da0E5FC7a36b27F470333B12D3cd26
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
