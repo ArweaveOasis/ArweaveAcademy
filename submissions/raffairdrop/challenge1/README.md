@@ -18,6 +18,6 @@ This project demonstrates a simple website with file-based routing. It consists 
 Use a tool like Dragondeploy to deploy the files to Arweave.
 
 ## Live Demo
-The website is deployed on Arweave using Dragondeploy. You can access it at [Deployed URL](https://arweave.net/K3Ex_Z-jSinPW0sTyxZoPq2s7oWFn4-C1En0NZmLbGI//).
+The website is deployed on Arweave using Dragondeploy. You can access it at [Deployed URL](https://fnytd7m7unfctt23jmj4wftih2w2z3ufqwpy7awujh2dlgmlnrra.arweave.net/K3Ex_Z-jSinPW0sTyxZoPq2s7oWFn4-C1En0NZmLbGI/).
 
 
