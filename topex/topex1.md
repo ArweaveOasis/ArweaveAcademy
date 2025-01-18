@@ -4,8 +4,8 @@
 
 - github account: https://github.com/tikiwilki
 - Email: tikiwili@gmail.com
-- Arweave Address: 
-- ETH Address: HJzKl55arJ9YWwWlmanhgBlXZKBSgiWrZRgTQiu3vVQ
+- Arweave Address: HJzKl55arJ9YWwWlmanhgBlXZKBSgiWrZRgTQiu3vVQ
+- ETH Address: 0x12D787742aDDBb58bd9bfd728785F55934CFB1a6
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
