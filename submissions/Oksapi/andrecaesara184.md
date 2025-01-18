@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account:Oxsapi
+- github account:andrecaesara184
 - Email:andrekovling@gmail.com
 - Arweave Address:h03_y3-TGGIxiloGQiuLktVrb2SWs1eyLwEwncFQBxU
 - ETH Address:0x3927ab36534df83357AC02Dc1b543fB0a2e449F5
