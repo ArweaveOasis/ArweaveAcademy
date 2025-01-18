@@ -5,7 +5,7 @@
 - github account: vanworth
 - Email: nvncool21@gmail.com
 - Arweave Address: nBBliucPVnXClOlB8loP_UPzPhbpHeEGyx3Rz72iYZw
-- ETH Address: nBBliucPVnXClOlB8loP_UPzPhbpHeEGyx3Rz72iYZw
+- ETH Address: 0xaBf35c28aaF63767dD0e80071dDdF01916239afe
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
