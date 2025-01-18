@@ -4,8 +4,8 @@
 
 - github account: https://github.com/Septian-Putra-Arji-Wibawa
 - Email: septianptraa23@gmail.com
-- Arweave Address: LvgCThEXpvfM1NDsnWHPMes-484DY0SwSQiMftNwC10
-- ETH Address: 0x8b7f09064103ec1da2fa6a4b6ab12b01799db58a
+- Arweave Address: zqRD6iSN_ecYldMLPFCbKfpq0Em0vT3XbqIGu2zHMXo
+- ETH Address: 0xD6079B1a923B1A33d74ac1608CAB700CA9538894
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
