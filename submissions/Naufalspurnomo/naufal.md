@@ -9,4 +9,10 @@
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
- i'am have biggest enthusiast in developing dApps in many chain in the web3 circle, im curently working a freelance in node developer, node runner, node operator etc
+My name is Naufal Shidqi Purnomo, a student of Educational Systems and Information Technology. I possess strong skills in Public Speaking, Teamwork, Pedagogy, and Tech Innovation, complemented by a solid foundation in various tech-related areas.
+
+I have expertise in Web Development, including tools and technologies such as XAMPP, PostgreSQL, HTML CSS, Laravel, Vue & Node.js, as well as Git & GitHub. My interest in Design is supported by proficiency in Figma, Canva, Draw.io, and Picsart.
+
+In the field of Artificial Intelligence, I am skilled in Prompt Engineering and AI Stable Diffusion. Additionally, I have experience in Game/App Development using Unity and NetBeans, as well as Project Management tools like Trello, Miro, Notion, and Microsoft Office.
+
+I am passionate about User Interface, Web Development, Game Development, and AI Innovation, and my goal is to continually improve myself while contributing positively to society.
