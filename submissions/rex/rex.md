@@ -2,7 +2,7 @@
 
 - github account: DinoR3X
 - Email: vryrizky@gmail.com
-- Arweave Address: NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8
+- Arweave Address: mNt3UUJMv9KYkAoZAhAoLeNKTz33sGgGQBqXcCpHTBg
 - ETH Address: 0xe131780453e7c734d1c8005a18b1d8537d0eed4d
 
 ### Introduce Yourself
