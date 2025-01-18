@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: https://github.com/vavafa95
+- github account: vavafa95
 - Email: flanelaflafa@gmail.com
 - Arweave Address: 0CB5PN9prTWlndQ8C6mqbvEJChmvG-rRa9PSzamA0Kg
 - ETH Address: 0x10b302e162Da985F249E430F2e68691634949E73
