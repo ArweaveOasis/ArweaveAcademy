@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: 
+- github account: Izzyz27
 - Email: aswteam90@gmail.com
 - Arweave Address: wAl6_lDfnN_whQWS4CiifwsWYt_neQUYJf-lUV3xCow
 - ETH Address: 0x1935Fe0CEf54EBdDc83d969F550F85d7CB29e816
