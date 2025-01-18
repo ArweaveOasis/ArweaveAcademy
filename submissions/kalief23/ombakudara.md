@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: kalief23
+- github account: @kalief23
 - Email: origin.ruby@gmail.com
 - Arweave Address: qiz_TgA68J7I2sNEU49uPxTj615LG-OQ3Bv_mB-zt_Q
 - ETH Address: 0x4C7b5DE79c1b5E9f85B38b43D7edD2D5085E0056
