@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: KaelVKaelVNode
+- github account: KaelVNode
 - Email: kaeltamiali@gmail.com
 - Arweave Address: sURDg280uMFa8gdulQf77Rp4wQNIbBcRGN4mqaNBETs
 - ETH Address: 0xdD0320829e1093b48bbfeA341C1e22923caC9aEe
