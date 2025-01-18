@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: jzee666
+- github account: Jzee666
 - Email: acctuyul2000@gmail.com
 - Arweave Address: HPQWEkcusXix5eIvczAOFlqPVnHiTwD1CDiGiGq9DNI
 - ETH Address: 0xf0a054f862bf2b9d1ac6963bd8bc42cc77e75146
