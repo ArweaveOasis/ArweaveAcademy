@@ -1,0 +1,2 @@
+### Introduce Yourself
+I'am mainly a graphics programming, currently interested in neural networking, I usually done my project as a hobby, I'm looking for a collaborative freelance job that applies as my skill, desktop/mobile applications, and backend applications.
