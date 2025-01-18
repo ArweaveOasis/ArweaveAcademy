@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: KOCHINZZ
+- github account: https://github.com/KOCHINZZ
 - Email: rokhmanukholik@gmail.com
 - Arweave Address: R6lqif4YB8v9xfdZQh6o80nKNDZnKcIyHV31UUPBx-g
 - ETH Address: 0x3AD7ef71E624A45e973CAa055A98e5DDa087696D
