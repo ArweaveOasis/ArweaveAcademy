@@ -2,10 +2,10 @@
 
 ### Personal information
 
-- github account: 
-- Email: 
-- Arweave Address: 
-- ETH Address: 
+- github account: IniNama-R
+- Email: arjunasigit97@gmail.com
+- Arweave Address: PihzW2kLkBYlvGcB5watjcwXSEXZgAHtcgoa4BGw2JI
+- ETH Address: 0x238a46ffd22be95dddcc51ec23faa0774ac85718
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
