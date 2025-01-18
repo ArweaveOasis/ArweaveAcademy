@@ -2,10 +2,10 @@
 
 ### Personal information
 
-- github account: 
-- Email: 
-- Arweave Address: 
-- ETH Address: 
+- github account: 07chalim
+- Email: 07chalim@gmail.com
+- Arweave Address: WEHAlzvpg0jJpMuCNLXIWzhEXBOXm49n8gK8eSQOh4c
+- ETH Address: 0x6f3E91a50B8c381FD3dE973dA7d7ADf70c5d748A
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
