@@ -1,0 +1,5 @@
+- github account: rafiyuna
+- Email: rafiyunarasyid@gmail.com
+- Arweave Address: klqwFu27C24RbLaxI0_h-lDaGc9vnmKcs6svaUhkNro
+- ETH Address: 0x89d76d4789E00a604A118A4A30eC5C0609253231
+- Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
