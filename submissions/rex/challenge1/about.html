@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Credits</title>
+    <!-- Font Awesome CDN for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .social-icons {
+            margin: 20px 0;
+        }
+        .social-icons a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 40px;
+            color: #333;
+        }
+        .social-icons a:hover {
+            color: #4CAF50;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            margin-top: 30px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Running credits section */
+        .credits-container {
+            width: 100%;
+            overflow: hidden;
+            background-color: #333;
+            color: white;
+            margin-top: 50px;
+            padding: 20px 0;
+        }
+        .credits-text {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scrollText 10s linear infinite;
+            font-size: 20px;
+            padding-left: 100%;
+        }
+        @keyframes scrollText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>About This Mini Game</h1>
+    <p>Thank you for visiting! Connect with us on social media.</p>
+    
+    <!-- Social Media Icons -->
+    <div class="social-icons">
+        <a href="https://discord.com/invite/YGXJbuz44K" target="_blank"><i class="fab fa-discord"></i></a>
+        <a href="https://x.com/ArweaveOasis" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/permaweb/ao" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+
+    <!-- Credits Section with Running Text -->
+    <div class="credits-container">
+        <div class="credits-text">
+            <p>Credits: Developed by R3x & ARwaves Dev | Graphics by R3x | Music by Retro Music Creator | Special Thanks to All Supporters!</p>
+        </div>
+    </div>
+
+    <a href="index.html"><button class="btn">Back to Home</button></a>
+
+</body>
+</html>
+
