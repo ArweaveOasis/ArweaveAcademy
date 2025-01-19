@@ -7,5 +7,5 @@ Why? This routing method is easy to implement and aligns perfectly with Arweaveâ
 - **Tools**  
 React, Arlink & ArNS
 - **Live View** 
-Regular Deployment: https://ascwallet_arlink.arweave.net/
-Undername ArNS: https://ascwallet_ascairdropasc.ar.io/
+Regular Deployment: https://ascapp_arlink.arweave.net/
+Undername ArNS: ascapp_ascairdropasc.ar.io/

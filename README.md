@@ -57,7 +57,6 @@ For example, to submit `task1`, follow these steps:
 3. Please **log in** to the OpenBuild platform using your **GitHub account** to facilitate the subsequent statistical work.
 4. Answer all the questions, take a screenshot of the result, and upload it to your `submissions/YourName/task1` folder.
 5. Submit a Pull Request to this repository. Once your PR is merged, `task1` will be marked as complete.
-6. ⚠️ Each task must be submitted separately. A single PR containing multiple tasks will be closed.
 
 Developers who complete all the courses and submit the tasks will receive a Level 1 Certification. If you earn all 4 Levels of Certifications in the future, you will be awarded a **Final Graduation Certificate** and become a priority candidate in our talent pool, gaining access to more job opportunities within the ecosystem.
 
