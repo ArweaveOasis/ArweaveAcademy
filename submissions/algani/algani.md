@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: https://github.com/alganii14
+- github account: alganii14
 - Email: alghani8388@gmail.com
 - Arweave Address: GUOJzW39P8JZswIChnLIhe0ku_hdpvJocdabpVKWfnU
 - ETH Address: 0x46B8a9A553f2B77FE741BA44b5Ba76EEb294Be79
