@@ -4,7 +4,7 @@
 
 - github account: aarrffqq
 - Email: zhastikus7@gmail.com
-- Arweave Address: NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8
+- Arweave Address: nUrCPcR0geD8fOfjWSpnC8oOjcnKeRBhSS7QBFq9gOw
 - ETH Address: 0x14c4808031E8EC481813A479657ac2ddA3519Cb0
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
