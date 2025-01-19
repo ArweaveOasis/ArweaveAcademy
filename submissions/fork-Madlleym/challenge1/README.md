@@ -25,7 +25,7 @@ project-folder/
 ```
 
 ## 🚀 Deployment
-Proyek ini telah di-deploy di [DragonDeploy](https://dragondeploy.xyz) dan dapat diakses di:
+This project has been deployed in [DragonDeploy](https://dragondeploy.xyz) and can be accessed at:
 [arweave.net/8VHL96zKUFz7i8y9zUnmi0jIurxFAbdzlwbU0MozEnk/](https://arweave.net/8VHL96zKUFz7i8y9zUnmi0jIurxFAbdzlwbU0MozEnk/)
 
 ## 💻 Instalasi
