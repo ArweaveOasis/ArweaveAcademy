@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account:d1srespect9
+- github account:https://github.com/d1srespect9
 - Email:trrahmans9@gmail.com
 - Arweave Address:dChRUzhrNqsDniUiEEJkO570qoUIPaXYQCLfvzL0qb0
 - ETH Address:0x466f3933735ad68b31f033ba3d16e25c7882da4c
