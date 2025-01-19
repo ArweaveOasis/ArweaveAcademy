@@ -1,70 +1,253 @@
-/* Reset CSS */
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    background-color: #F4E1D2;  /* Warm beige background */
+    color: #333333;  /* Charcoal text for readability */
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
 }
 
+/* Header Navigation */
 header {
-    background-color: #333;
-    color: #fff;
+    background: #4CAF50;  /* Soft green for header */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
     padding: 10px 0;
 }
 
-header nav ul {
-    list-style-type: none;
-    text-align: center;
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;  /* White logo for contrast */
+    text-transform: uppercase;
+    flex-shrink: 0;
 }
 
-header nav ul li a {
-    color: #fff;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
     text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #FF6F61;  /* Soft coral on hover for a gentle pop */
+}
+
+/* Responsive Navigation Menu */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle div {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 5px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Main Content */
+main {
+    padding: 120px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main h1 {
+    font-size: 36px;
+    color: #4CAF50;  /* Soft green for the main title */
+    margin-bottom: 20px;
     font-weight: bold;
 }
 
-main {
+main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;  /* Medium gray for the text */
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #4CAF50;  /* Soft green for buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #388E3C;  /* Darker green on hover */
+}
+
+/* Articles Section */
+.articles {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.articles h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article-card {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    background: #fff;
     padding: 20px;
-}
-
-.hero {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 40px 20px;
+    transition: all 0.3s ease-in-out;
 }
 
-.news ul {
-    list-style-type: none;
-    padding-left: 0;
+.article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.news ul li {
-    margin-bottom: 10px;
+.article-card img {
+    max-width: 100%;
+    border-radius: 5px;
 }
 
+.article-card h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.article-card p {
+    font-size: 16px;
+    color: #777;  /* Lighter gray for article text */
+}
+
+/* Footer */
 footer {
+    background: #4CAF50;  /* Soft green footer */
+    color: #fff;
     text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 16px;
 }
 
-footer p {
-    margin: 0;
+/* Form Styling */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;  /* Charcoal for label text */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;  /* Light gray border */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background: #4CAF50;  /* Soft green for button */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form button:hover {
+    background: #388E3C;  /* Darker green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background: #4CAF50;  /* Green background for mobile menu */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .article-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    main {
+        padding: 50px 15px;
+    }
 }
