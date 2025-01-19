@@ -5,7 +5,7 @@
 - GitHub account:sindangbarang
 - Email:sandiyogianto25@gmail.com
 - Arweave Address:_uiUl3oz9N1mhpiPMbsrlK1-vrTjC7GNEd2qBRqa9KA
-- ETH Address:0x000000d377f1c400EF39ffA4cf6F93a4C17712F5
+- ETH Address:0xFd9aC8870C1799C663c97698CD59c510d7D51781
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
