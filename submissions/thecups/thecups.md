@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: thecups 
+- github account: @thecups 
 - Email: dstyusup@gmail.com
 - Arweave Address: NjGOBA6_CzbVulJ99L5y7Mzj0cbjP-WMSUM2JNIejZw
 - ETH Address: 0x0c1D1A06bEC09BC9871f77262Cb0C8C66ea171e6
