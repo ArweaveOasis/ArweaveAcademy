@@ -7,4 +7,6 @@ level one goin to level to by clicking next
 level two goin to about while clicking next
 in about u can see the dev and ny credit. also u can tap the social media icon and it will direct to ARwaves socials
 
+visit site here: https://arweave.net/cmVQQKaAQt-F-Rpr293GdbmOFp81CIaPyfJFO58kgT4/
+
 Thank you, R3x
