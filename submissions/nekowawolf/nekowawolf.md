@@ -9,4 +9,4 @@
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
- i'am have biggest enthusiast in developing dApps in many chain in the web3 circle, im curently working a freelance in node developer, node runner, node operator etc
+  i'am have biggest enthusiast for web3 industry, I am CSE student. My specialty is database management, I can use postgresql, mongodb, mysql, I am also interested in backend with go, I can also UI/UX with figma, canva, and frontend I can use js and tailwind css
