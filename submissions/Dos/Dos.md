@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: Dos09x
+- github account: Dos09x or MaldoS9
 - Email: dos09x@gmail.com
 - Arweave Address: l3RMV7rER8ZtDiR7C1rB0p7C6cWUGm9h30Y37i5S_6k
 - ETH Address: 0x09796e40BD82bc800B1E2Aa276ED0dc024a0311E
