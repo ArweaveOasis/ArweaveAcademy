@@ -9,4 +9,4 @@
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
-I am a big enthusiast in developing dApps across multiple chains in the Web3 circle. I am currently working as a freelancer specializing in node development, node running, and node operation.
+I am deeply passionate about developing decentralized applications (dApps) across various blockchains within the Web3 ecosystem. As a freelancer, I specialize in node development, node operation, and running nodes, contributing to the growth and functionality of decentralized networks. My work allows me to stay at the forefront of blockchain technology, offering innovative solutions and helping to drive the future of decentralized systems.
