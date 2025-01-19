@@ -4,7 +4,7 @@
 
 - github account: erdeka888
 - Email: moonminer888@gmail.com 
-- Arweave Address: 5PhuGVT2ASsUofn4JUEJfVGFiFX3pozgQlziZbqyeLQ
+- Arweave Address: X-5QUNoh-jNJoQhXtabpY-7bSxxSvfH_0eEGkHDO-9Y
 - ETH Address: 0xc082a3eee865dcc7a5626392073f08a2f4ccd3c6
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
