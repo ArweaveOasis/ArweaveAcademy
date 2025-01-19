@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account:0santo
+- github account:Derisw
 - Email:deriswanto680@gmail.com
 - Arweave Address:DS0GzWNJxVxwsAore8IuBuqN0Vlu1HKyx_3vAQlSYDs
 - ETH Address:0xD37bE5Aa82Faf03c5712e1a568577A4776E47518 
