@@ -3,7 +3,7 @@
 ### Personal information
 
 - github account: Fenzie19
-- Email: m.fahrozy18@gmail.com
+- Email: fennisyahh@gmail.com
 - Arweave Address: jXKr9m1_c9_d3sa7RYX6pVSVRvyH_H56PD-2O_tfd3Q
 - ETH Address: 0xBcc84CB83D38b8118C73B80cdCe61E5f31a626f8
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
