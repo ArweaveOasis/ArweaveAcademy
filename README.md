@@ -1,4 +1,4 @@
-<!-- [中文](https://github.com/ArweaveOasis/Arweave-AO-Dev-Learning/blob/main/README_CN.md) / English -->
+<!-- [中文](./doc/README_CN.md) / [English](./doc/README_EN.md) -->
 
 # School of DumDum
 
@@ -17,18 +17,18 @@
 
 ## Overview
 
-The School of DumDum is a part of Arweave Academy developer education program. We offer developers free, high-quality courses and practical tasks to help them start building applications on Arweave and AO from scratch.  
+The School of DumDum is a part of Arweave Academy developer education program. We offer developers free, high-quality courses and practical tasks to help them start building applications on Arweave and AO from scratch.
 
 Special thanks to [@K4y1s](https://x.com/K4y1s), [@sayestheorem](https://x.com/sayestheorem), [@rosmcmahon_real](https://x.com/rosmcmahon_real) and [@developer_dao](https://x.com/developer_dao) for support, and to [@OpenBuildxyz](https://x.com/OpenBuildxyz) for their guidance and assistance with the event process.
 
 We divided this event into two parts: one for beginners and one for advanced developers.
 
 - **Beginners** can enter the `Learning section`, where they will complete their learning by studying courses and submitting tasks.
-- **Advanced Developers** can directly participate in the `Practice section` competition. You can choose a topic of your interest from the challange list and complete the practice by developing and writing tutorials. The best practices will be selected by judges and rewarded.
+- **Advanced Developers** can directly participate in the `Practice section` competition. You can choose a topic of your interest from the challenge list and complete the practice by developing and writing tutorials. The best practices will be selected by judges and rewarded.
 
 ## Preparation
 
-Before participating in the event, here’s what you need to prepare:
+Before participating in the event, here's what you need to prepare:
 
 - An Arweave/AO wallet -- [Arconnect](https://www.arconnect.io/)
 - An all-in-one Arweave AO relevant documentation list -- [awesome-ao](https://github.com/ArweaveOasis/awesome-ao)
@@ -39,7 +39,7 @@ Before participating in the event, here’s what you need to prepare:
 
 Developers need to complete GitHub registration by following these steps:
 
-1. **Star**, **Watch** and **Fork** this repository and `git clone` it to your local machine. <br> 👉 Not familiar with Git/Github? Check out [Using Arweave Academy Github](./doc/Using%20Arweave%20Academy%20Github.md).
+1. **Star**, **Watch** and **Fork** this repository and `git clone` it to your local machine. <br> 👉 Not familiar with Git/Github? Check out [Using Arweave Academy Github](./doc/Using%20Arweave%20Academy%20Github_EN.md).
 2. Navigate to the `submissions` folder and create a new folder named after your GitHub username, e.g. `submissions/YourName`.
 3. Copy the [Template.md](./template.md) file into the newly created folder and rename it to your name: `YourName.md`.
 4. Open the `submissions/YourName/YourName.md` file, fill in your information as instructed, and save it.
@@ -78,8 +78,6 @@ Developers who complete all the courses and submit the tasks will receive a Leve
     - What are Popular Arweave Bundling Services and SDKs?
     - What are Popular Arweave Wallets?
 
-<!-- 3. Why should developers care about Arweave？| [Learn]() -->
-
 | Task | Topic | Status |
 |-------|-------|-------|
 | [task1](https://openbuild.xyz/quiz/202501081) | 6 Quizs for "Intro to Arweave" | Ongoing |
@@ -114,7 +112,7 @@ Developers who complete all the courses and submit the tasks will receive a Leve
 | [task9](https://openbuild.xyz/quiz/202501089) | 6 Quizs for "Build a Dapp on Arweave" | Ongoing |
 | [task10](https://openbuild.xyz/quiz/202501090) | 6 Quizs for "Build a Dapp on Arweave" | Ongoing |
 
-#### Module 3: Introduction to AO (TBD)  
+#### Module 3: Introduction to AO (TBD)
 
 #### Module 4: Connecting Arweave and AO (TBD)
 
