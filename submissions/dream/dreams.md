@@ -2,10 +2,10 @@
 
 ### Personal information
 
-- github account: 
-- Email: 
-- Arweave Address: 
-- ETH Address: 
+- github account: https://github.com/beyondmydreamss
+- Email: barakallah8080@gmail.com
+- Arweave Address: dDIqCeNcfZMu4EwtTSFDsEJ54RejO2ePEF2DBCvp8S0
+- ETH Address: 0x48813553991542D784ddF296ec27626a5884c2F3
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
