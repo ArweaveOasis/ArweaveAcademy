@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: brambhismantara
+- github account: [brambhismantara](https://github.com/brambhismantara)
 - Email: brambhismantara.x2@gmail.com
 - Arweave Address: 5RFReVIvfBAoTfk8YnKfuJZY-Gq0HnPPdjFcmy5DfdQ
 - ETH Address: 0x684ad616d54762f046e6b0fc02409103788ea521
