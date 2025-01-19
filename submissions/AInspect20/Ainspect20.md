@@ -2,10 +2,10 @@
 
 ### Personal information
 
-- github account: 
-- Email: 
-- Arweave Address: 
-- ETH Address: 
+- github account: airdropinspect20@gmail.com
+- Email: airdropinspect
+- Arweave Address: 7YzW3usnEJ_vasUlH3aXV-bdw4g9OK9RAwAXIfMot9A
+- ETH Address: 0xa92452d292f67c87309cf1701e7ab89303c720e7
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
