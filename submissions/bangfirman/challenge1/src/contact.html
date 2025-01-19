@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">Bang Firman</div>
+            <div class="logo">Firmaweb</div>
             <ul id="menu">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -25,21 +25,25 @@
     </header>
 
     <main>
-        <h1>About Us</h1>
-        <p>
-            Bang Firman Community Crypto Indonesia is a dedicated group of blockchain enthusiasts 
-            committed to educating and promoting cryptocurrency adoption across Indonesia. 
-            Our goal is to provide accessible and reliable information about blockchain technology.
-        </p>
-        <img src="../assets/images/about.png" alt="About Us">
-        <p>
-            We organize events, workshops, and discussions to help people understand the potential 
-            of decentralized finance and blockchain in the modern world.
-        </p>
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feel free to reach out to us using the form below.</p>
+        
+        <form action="#" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
     </main>
 
     <footer>
-        <p>&copy; 2025 Bang Firman Community Crypto Indonesia. All rights reserved.</p>
+        <p>&copy; 2025 Firmaweb Community Crypto Indonesia. All rights reserved.</p>
     </footer>
 
     <script>
