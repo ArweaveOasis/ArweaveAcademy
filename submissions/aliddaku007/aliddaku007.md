@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account:0xsapi
+- github account:faridmild007
 - Email:janetfaanbazile@gmail.com
 - Arweave Address:mtiSaU7Dw89ruvBssdKXasRL6asVx5InlbKabCQvRJk
 - ETH Address:0xF970fA5D46D400C728Bd7985955008611904b27D
