@@ -1,0 +1,1 @@
+{"version":3,"file":"Signer.js","sourceRoot":"","sources":["../../../../../src/signing/Signer.ts"],"names":[],"mappings":"AAAA,MAAM,OAAgB,MAAM;IACjB,SAAS,CAAS;IAClB,aAAa,CAAS;IACtB,eAAe,CAAS;IACxB,WAAW,CAAS;IACpB,GAAG,CAAmB;IAG/B,MAAM,CAAC,MAAM,CAAC,GAAoB,EAAE,QAAoB,EAAE,UAAsB,EAAE,KAAW;QAC3F,MAAM,IAAI,KAAK,CAAC,2CAA2C,CAAC,CAAC;IAC/D,CAAC;CACF"}

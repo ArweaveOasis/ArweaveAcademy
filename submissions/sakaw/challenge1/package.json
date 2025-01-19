@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@bundlr-network/client": "^0.11.17"
+  }
+}

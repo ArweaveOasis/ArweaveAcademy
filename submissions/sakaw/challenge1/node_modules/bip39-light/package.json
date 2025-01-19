@@ -1,0 +1,32 @@
+{
+  "name": "bip39-light",
+  "version": "1.0.7",
+  "description": "Bitcoin BIP39: Mnemonic code for generating deterministic keys, a lightweight fork",
+  "main": "index.js",
+  "scripts": {
+    "standard": "standard",
+    "test": "npm run standard && npm run unit",
+    "unit": "tape test/*.js"
+  },
+  "author": "Wei Lu",
+  "contributors": [
+    {
+      "name": "Rafael Korbas",
+      "email": "rafael.korbas@vacuumlabs.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vacuumlabs/bip39-light.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "create-hash": "^1.1.0",
+    "pbkdf2": "^3.0.9"
+  },
+  "devDependencies": {
+    "proxyquire": "^1.7.10",
+    "standard": "^10.0.2",
+    "tape": "^4.6.2"
+  }
+}

@@ -1,0 +1,32 @@
+name: "NPM Publish Action"
+
+on: 
+  release:
+    types: [published]
+
+jobs:
+  release:
+    name: 'Publish npm'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'checkout'
+        uses: actions/checkout@v2.4.0
+
+      - name: 'node setup'
+        uses: actions/setup-node@v2.4.1
+        with:
+          node-version: 14
+
+      - name: Login to Github's NPM registry
+        run: printf "@randlabs:registry=https://npm.pkg.github.com \n//npm.pkg.github.com/:_authToken=${{secrets.PUBLISH_TOKEN}}" > .npmrc
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build package
+        run: npm run build
+
+      - name: Publish package
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}

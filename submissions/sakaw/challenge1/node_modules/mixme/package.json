@@ -1,0 +1,101 @@
+{
+  "name": "mixme",
+  "description": "A library for recursively merging JavaScript objects",
+  "version": "0.5.10",
+  "author": "David Worms <david@adaltas.com> (https://www.adaltas.com)",
+  "contributors": [
+    "Paul Farault <paul.farault@gmail.com>"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@commitlint/cli": "^18.4.2",
+    "@commitlint/config-conventional": "^18.4.2",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@types/mocha": "^10.0.4",
+    "@types/node": "^20.9.1",
+    "coffeescript": "^2.7.0",
+    "husky": "^8.0.3",
+    "mocha": "^10.2.0",
+    "pinst": "^3.0.0",
+    "rollup": "^4.5.0",
+    "should": "^13.2.3",
+    "standard-version": "^9.5.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "homepage": "https://github.com/adaltas/node-mixme",
+  "bugs": {
+    "url": "https://github.com/adaltas/node-mixme/issues"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./lib/index.d.ts",
+        "default": "./lib/index.js"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.cts",
+        "default": "./dist/cjs/index.cjs"
+      }
+    }
+  },
+  "keywords": [
+    "clone",
+    "copy",
+    "deep",
+    "extend",
+    "merge",
+    "objects",
+    "recursive"
+  ],
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "license": "MIT",
+  "main": "./dist/cjs/index.cjs",
+  "module": "dist/esm/index.js",
+  "mocha": {
+    "inline-diffs": true,
+    "loader": "ts-node/esm",
+    "recursive": true,
+    "reporter": "spec",
+    "require": [
+      "should"
+    ],
+    "throw-deprecation": true,
+    "timeout": 40000
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adaltas/node-mixme.git"
+  },
+  "scripts": {
+    "_postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
+    "build": "npm run build:rollup && npm run build:ts",
+    "build:rollup": "rollup -c",
+    "build:ts": "cp lib/index.d.ts dist/cjs/index.d.cts && cp lib/*.ts dist/esm",
+    "test": "mocha 'test/**/*.{js,ts}'",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major",
+    "postrelease": "git push --follow-tags origin master"
+  },
+  "type": "module",
+  "types": "lib/index.d.ts",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "dist/esm/index.d.ts"
+      ]
+    }
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "arconnect",
+  "version": "0.4.2",
+  "main": "index.js",
+  "module": "index.es.js",
+  "jsnext:main": "index.es.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "arweave": "^1.10.13"
+  }
+}

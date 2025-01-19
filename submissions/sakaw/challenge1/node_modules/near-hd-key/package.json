@@ -1,0 +1,63 @@
+{
+  "name": "near-hd-key",
+  "version": "1.2.1",
+  "description": "BIP-0032 like derivation for ed25519 curve",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alepop/ed25519-hd-key"
+  },
+  "bugs": {
+    "url": "https://github.com/alepop/ed25519-hd-key/issues"
+  },
+  "homepage": "https://github.com/alepop/ed25519-hd-key",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc -p ./",
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/spec/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "globals": {
+      "window": {},
+      "ts-jest": {
+        "tsConfig": "./tsconfig.json"
+      }
+    }
+  },
+  "keywords": [
+    "ed25519",
+    "bip32",
+    "slip-0010",
+    "crypto",
+    "trezor"
+  ],
+  "author": "Aleksey Popov",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "3.0.2",
+    "create-hmac": "1.1.7",
+    "tweetnacl": "1.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "25.2.3",
+    "@types/node": "14.0.4",
+    "jest": "25.5.4",
+    "jest-cli": "26.0.1",
+    "ts-jest": "25.5.1",
+    "typescript": "3.9.3"
+  }
+}

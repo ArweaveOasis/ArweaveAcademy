@@ -1,0 +1,32 @@
+name: SAST
+on: [push, workflow_dispatch]
+jobs:
+  Depcheck-SonarQube:
+    name: Source Code Analysis
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: OWASP Dependency Check
+      uses: dependency-check/Dependency-Check_Action@main
+      id: DepCheck
+      with:
+        project: 'DependencyCheck'
+        path: '.'
+        format: 'HTML'
+
+    - name: SonarQube Scan
+      uses: sonarsource/sonarqube-scan-action@master
+      with:
+        projectBaseDir: .
+        args: >
+          -Dsonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }}
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+    
+    - name: Search dangerous attributes
+      run: .github/workflows/sast/dangerouslySetInnerHTML.sh
+      shell: bash

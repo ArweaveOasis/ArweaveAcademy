@@ -1,0 +1,39 @@
+{
+	"name": "vlq",
+	"description": "Generate, and decode, base64 VLQ mappings for source maps and other uses",
+	"author": "Rich Harris",
+	"repository": "https://github.com/Rich-Harris/vlq",
+	"license": "MIT",
+	"version": "2.0.4",
+	"type": "module",
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"import": "./src/index.js",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"main": "dist/index.cjs",
+	"module": "src/index.js",
+	"types": "types/index.d.ts",
+	"files": [
+		"src",
+		"dist",
+		"types"
+	],
+	"devDependencies": {
+		"rollup": "^2.58.0",
+		"typescript": "^4.4.4"
+	},
+	"scripts": {
+		"build": "rm -rf dist && rollup -c && tsc",
+		"test": "node test",
+		"prepublishOnly": "npm test && npm run build"
+	},
+	"keywords": [
+		"sourcemap",
+		"sourcemaps",
+		"base64",
+		"vlq"
+	]
+}

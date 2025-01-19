@@ -1,0 +1,10 @@
+export declare const TEXT_ENCODING_AVAILABLE: boolean;
+export declare function utf8Count(str: string): number;
+export declare function utf8EncodeJs(str: string, output: Uint8Array, outputOffset: number): void;
+export declare const TEXT_ENCODER_THRESHOLD: number;
+declare function utf8EncodeTEencodeInto(str: string, output: Uint8Array, outputOffset: number): void;
+export declare const utf8EncodeTE: typeof utf8EncodeTEencodeInto;
+export declare function utf8DecodeJs(bytes: Uint8Array, inputOffset: number, byteLength: number): string;
+export declare const TEXT_DECODER_THRESHOLD: number;
+export declare function utf8DecodeTD(bytes: Uint8Array, inputOffset: number, byteLength: number): string;
+export {};

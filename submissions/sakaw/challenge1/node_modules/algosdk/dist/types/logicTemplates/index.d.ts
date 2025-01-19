@@ -1,0 +1,16 @@
+import dynamicFeeTemplate = require("./dynamicfee");
+import htlcTemplate = require("./htlc");
+import limitOrderTemplate = require("./limitorder");
+import splitTemplate = require("./split");
+import periodicPayTemplate = require("./periodicpayment");
+export const DynamicFee: typeof dynamicFeeTemplate.DynamicFee;
+export const getDynamicFeeTransactions: typeof dynamicFeeTemplate.getDynamicFeeTransactions;
+export const signDynamicFee: typeof dynamicFeeTemplate.signDynamicFee;
+export const HTLC: typeof htlcTemplate.HTLC;
+export const signTransactionWithHTLCUnlock: typeof htlcTemplate.signTransactionWithHTLCUnlock;
+export const LimitOrder: typeof limitOrderTemplate.LimitOrder;
+export const getSwapAssetsTransaction: typeof limitOrderTemplate.getSwapAssetsTransaction;
+export const Split: typeof splitTemplate.Split;
+export const getSplitFundsTransaction: typeof splitTemplate.getSplitFundsTransaction;
+export const PeriodicPayment: typeof periodicPayTemplate.PeriodicPayment;
+export const getPeriodicPaymentWithdrawalTransaction: typeof periodicPayTemplate.getPeriodicPaymentWithdrawalTransaction;

@@ -1,0 +1,15 @@
+import nacl from 'tweetnacl';
+import sha512 from 'js-sha512';
+export declare function genericHash(arr: sha512.Message): number[];
+export declare function randomBytes(length: number): Uint8Array;
+export declare function keyPairFromSeed(seed: Uint8Array): nacl.SignKeyPair;
+export declare function keyPair(): nacl.SignKeyPair;
+export declare function isValidSignatureLength(len: number): boolean;
+export declare function keyPairFromSecretKey(sk: Uint8Array): nacl.SignKeyPair;
+export declare function sign(msg: Uint8Array, secretKey: Uint8Array): Uint8Array;
+export declare function bytesEqual(a: Uint8Array, b: Uint8Array): boolean;
+export declare function verify(message: Uint8Array, signature: Uint8Array, verifyKey: Uint8Array): boolean;
+export declare const PUBLIC_KEY_LENGTH: number;
+export declare const SECRET_KEY_LENGTH: number;
+export declare const HASH_BYTES_LENGTH = 32;
+export declare const SEED_BTYES_LENGTH = 32;
