@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: ridwanpranata
+- github account: ridwanhadipranata
 - Email: ridwan.hadi1945@gmail.com
 - Arweave Address: 5wVonkRQHhPEkSawTGDUU3_W4sSPn7L1uWGTBO38faI
 - ETH Address: 0x6c162025075833b46379F69b68829d387695036b
