@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: ilhamD14
+- github account: https://github.com/ilhamD14
 - Email: ilhamdwijuniarto224@gmail.com
 - Arweave Address: Zs1f2UCNE00b8ivsfWNGKlU_yzHMOzB8otAFG3iNDlw
 - ETH Address: 0x50a492eC830754e0b85632A5E129c986d7AbFe6a
