@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arweave sapi ventures</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Sapi ventures</div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./src/about.html">About Us</a></li>
+                <li><a href="./src/news.html">News</a></li>
+                <li><a href="./src/contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+ <main>
+    <h1>Welcome to Sapi Ventures Website</h1>
+    <p>
+        This is the home page of our website. Explore more about us, our latest news, and feel free to contact us.
+    </p>
+    <img src="assets/images/image.jpg" alt="Home">
+
+    <section class="articles">
+        <h2>Latest Articles</h2>
+        <div class="article-card">
+            <img src="assets/images/image1.png" alt="Article 1">
+            <h3>Learn about AO</h3>
+            <p>
+                Arweave AO operates through an innovative Actor-Oriented model, which allows independent computation units to communicate via messages. This design facilitates high concurrency and fault tolerance, essential for managing the complex demands of AI applications. 
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article-card">
+            <img src="assets/images/image2.png" alt="Article 2">
+            <h3>What is arweave</h3>
+            <p>
+                Arweave is a blockchain protocol that allows for permanent and decentralized data storage. It's designed to create a permanent web by storing data in a blockweave, a unique blockchain-like structure.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article-card">
+            <img src="assets/images/image3.jpg" alt="Article 3">
+            <h3>Aout AR/AO</h3>
+            <p>
+                Arweave AO isa computer network built on the Arweave data storage protocol. AO is designed to process thousands of transactions per second using parallel processing. .
+            </p>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2025 Sapi Ventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>

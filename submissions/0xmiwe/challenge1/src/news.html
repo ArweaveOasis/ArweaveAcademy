@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Sapi Ventures</div>
+            <ul id="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Latest News</h1>
+        <div class="article-card">
+            <img src="../assets/images/image1.png" alt="News 1">
+            <h3>learn About AO</h3>
+            <p>Arweave AO operates through an innovative Actor-Oriented model. All rights reserved</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article-card">
+            <img src="../assets/images/image2.png" alt="News 2">
+            <h3>What Is Arweave </h3>
+            <p>Arweave is a blockchain L1. All rights reserved.</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article-card">
+            <img src="../assets/images/image3.jpg" alt="News 3">
+            <h3>Upcoming Arweave Events</h3>
+            <p>Join our upcoming events to learn and network with blockchain enthusiasts.All rights reserved</p>
+            <a href="#">Read More</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; sapi ventures. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
