@@ -10,5 +10,3 @@
 
 ### Introduce Yourself
  "I am deeply passionate about developing dApps across various blockchain ecosystems within the Web3 space. Currently, I work as a freelance professional specializing in roles such as Node Developer, Node Runner, and Node Operator, contributing to the infrastructure that powers decentralized networks."
-
-Let me know if you'd like further refinements!
