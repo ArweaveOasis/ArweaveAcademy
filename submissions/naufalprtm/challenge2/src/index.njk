@@ -1,0 +1,123 @@
+---
+layout: base
+title: Frontend Challenge 2
+subtitle: Static Site Generation
+permalink: /index.html
+---
+<img src="./assets/image/school-of-dumdum.jpg" alt="School of DumDum" style="width: 100%; height: auto;">
+
+<section>
+    <h2>Frontend Challenge 2: Static Site Generation</h2>
+
+    <h3>Description</h3>
+    <p>
+        This challenge is about building a simple static website that is rendered during the build time and then deployed to Arweave.
+        The goal is to create a website that doesn't rely on server-side processing. Everything is generated at compile time, and no live server is required for serving content.
+        This method fits perfectly with Arweave’s permanent storage model, as the content once deployed is stored forever.
+    </p>
+    
+    <h3>Why Static Site Generation (SSG)?</h3>
+    <p>
+        Static site generation offers several advantages, especially for use cases like Arweave, which serves websites without the need for backend processing:
+    </p>
+    <ul>
+        <li><strong>Performance:</strong> Pre-rendered HTML ensures lightning-fast load times, making your website snappy and efficient to serve globally.</li>
+        <li><strong>Security:</strong> Static sites don’t rely on server-side code execution, significantly reducing the risk of security vulnerabilities.</li>
+        <li><strong>Scalability:</strong> Static files are easier to scale. As the content is already generated, you don’t need a server to handle traffic peaks.</li>
+        <li><strong>Perfect for Arweave:</strong> Since Arweave’s storage model is designed for permanent storage, static websites fit seamlessly into this paradigm by being immutable and always available.</li>
+    </ul>
+
+    <h3>Tools for Static Site Generation</h3>
+    <p>Some of the most popular tools for static site generation are:</p>
+    <ul>
+        <li><strong>Arx:</strong> A tool specifically designed to help build and deploy static websites to Arweave.</li>
+        <li><strong>Hexo:</strong> A fast, simple, and flexible static site generator built on Node.js.</li>
+        <li><strong>Eleventy (11ty):</strong> A simple yet powerful static site generator that can generate websites using templating engines like Nunjucks, Liquid, and Markdown.</li>
+    </ul>
+    
+    <h3>How Does It Work?</h3>
+    <p>
+        Static sites are generated at build time. When using Eleventy, it compiles the `.njk` templates and converts them into HTML files. The process looks like this:
+    </p>
+    <ol>
+        <li><strong>Write Templates:</strong> Write `.njk` templates with dynamic placeholders for your content (like titles, paragraphs, and images).</li>
+        <li><strong>Run Eleventy Build:</strong> When you run the build process, Eleventy compiles these templates and generates static HTML files.</li>
+        <li><strong>Deploy:</strong> After the HTML files are generated, you can deploy them to a static storage platform like Arweave.</li>
+    </ol>
+
+    <h3>Example Code (Full Page Layout)</h3>
+    <p>
+        Here’s an example of how you might structure a page using Eleventy and Nunjucks to generate a static page:
+    </p>
+
+    <pre>
+        <code>
+        ---
+        layout: base
+        title: About Us
+        permalink: /about.html
+        ---
+        
+        <h2>About Our Static Website</h2>
+        <p>This site is built using Static Site Generation (SSG) with Eleventy.</p>
+        <ul>
+            <li><strong>Static and Fast:</strong> Pre-rendered HTML, reducing load times.</li>
+            <li><strong>Simple to Deploy:</strong> Can be easily deployed to Arweave.</li>
+            <li><strong>Secure:</strong> No server-side vulnerabilities.</li>
+        </ul>
+
+        <p>Eleventy makes it easy to manage content and templates. The Nunjucks templating engine lets you embed dynamic data into static files.</p>
+        </code>
+    </pre>
+
+    <h3>How to Build Your Static Site Using Eleventy</h3>
+    <p>
+        After writing your content and templates, you can run the following commands to generate your site:
+    </p>
+    <pre>
+        <code>
+        # Install Eleventy
+        npm install @11ty/eleventy --save-dev
+
+        # Create your content and templates
+        mkdir src
+        mkdir src/_includes
+        mkdir src/_layouts
+
+        # Run the Eleventy build process
+        npm run build
+
+        # Serve the site locally
+        npm run serve
+        </code>
+    </pre>
+
+    <h3>Deploying to Arweave</h3>
+    <p>
+        Once your static site is built, you can deploy it to Arweave, which offers permanent and decentralized storage. Here's how to do it:
+    </p>
+    <ul>
+        <li><strong>Step 1:</strong> Upload your build folder (e.g., `_site/`) to Arweave using a deployment tool such as <a href="https://arweave.org/">Arweave</a> itself, or using tools like Arx.</li>
+        <li><strong>Step 2:</strong> Once uploaded, your website will be hosted on Arweave's decentralized network, making it accessible globally.</li>
+        <li><strong>Step 3:</strong> Share the Arweave URL for permanent access to your site!</li>
+    </ul>
+
+    <h3>Challenges of Static Site Generation</h3>
+    <p>
+        While SSG has many benefits, there are a few challenges:
+    </p>
+    <ul>
+        <li><strong>Content Updates:</strong> Static sites need to be rebuilt and redeployed whenever content changes. This can be automated using CI/CD pipelines to streamline the process.</li>
+        <li><strong>Dynamic Content:</strong> SSG is less suited for content that changes frequently or needs server-side logic (e.g., user authentication). For such cases, a hybrid approach or client-side JavaScript might be needed.</li>
+    </ul>
+
+    <h3>Benefits of Using Eleventy for SSG</h3>
+    <p>
+        Eleventy is lightweight and doesn’t have unnecessary bloat, which makes it ideal for performance and flexibility. Here are some features of Eleventy:
+    </p>
+    <ul>
+        <li><strong>Flexible Templating:</strong> Supports multiple templating engines like Nunjucks, Liquid, Markdown, and more.</li>
+        <li><strong>Customizable:</strong> It allows you to configure your project’s structure and build process according to your needs.</li>
+        <li><strong>Plugin Support:</strong> Eleventy offers various plugins for extra functionality, including image optimization and RSS feed generation.</li>
+    </ul>
+</section>

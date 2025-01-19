@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+    <header>
+        <h1>{{ title }}</h1>
+        {% if subtitle %}
+        <p>{{ subtitle }}</p>
+        {% endif %}
+    </header>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">Why?</a>
+        <a href="./tools.html">Tools</a>
+    </nav>
+    <main>
+        {{ content | safe }}
+    </main>
+    <footer>
+        <p>&copy; 2025 Frontend Challenge | Powered by Arweave</p>
+    </footer>
+</body>
+</html>
