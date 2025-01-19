@@ -1,0 +1,70 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+}
+
+.news ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.news ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
