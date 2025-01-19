@@ -2,10 +2,10 @@
 
 ### Personal information
 
-- github account: 
-- Email: 
-- Arweave Address: 
-- ETH Address: 
+- github account: axiemaul1
+- Email: axiemaul1@gmail.com
+- Arweave Address: gwp570rSEZ1esKO9dWyGCsX0l1tikqfrP3JwTUgrGJM
+- ETH Address: 0x3F44561F62dF563F65b0a22F4E816d4387bfE20E
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
