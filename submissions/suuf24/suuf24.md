@@ -5,8 +5,8 @@
 ## 📄 **Personal Information**  
 
 - **GitHub Account**: [suuf24](https://github.com/suuf24)
-- **Discord Account**: [0xibex] (https://discordapp.com/users/582967555682205716)
-- **Telegram Account**: [suuf24] (https://t.me/suuf24)
+- **Discord Account**: [0xibex](https://discordapp.com/users/582967555682205716)
+- **Telegram Account**: [suuf24](https://t.me/suuf24)
 - **Email**: [mailtoyusufrizaldy@gmail.com](mailto:mailtoyusufrizaldy@gmail.com)  
 - **Arweave Address**: `ivnX05T7VYhpC6Pwq4OFqqnAB858TqTj9Zu2JbnTlvM`  
 - **ETH Address**: `0x44e5b7354de641edcb626bf1457e9aaae3dc4891`  
