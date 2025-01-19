@@ -50,7 +50,7 @@ Contributing to open-source projects is a great way to improve your coding skill
 - As we can see, the connection has been established. Next, we need to connect to the upstream, which refers to the original project source that was forked initially, in this case, Arweave-Academy.
 
   ``` bash
-  git remote add upstream <original-repository-url>
+  git git add upstream <original-repository-url>
   ## Example:  git remote add upstream https://github.com/ArweaveOasis/Arweave-Academy.git
   ```
 
