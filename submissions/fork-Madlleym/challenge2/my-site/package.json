@@ -12,6 +12,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "arweave": "^1.15.5",
     "hexo": "^7.3.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
@@ -22,5 +23,10 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0"
-  }
+  },
+  "main": "deploy.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
