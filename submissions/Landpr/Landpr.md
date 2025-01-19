@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: @lndpr
+- github account: lndpr
 - Email: landungprakoso14@gmail.com
 - Arweave Address: jYHIg9u3C_WQuHB0bhWwp8QdwiPwgvwEDKR53Yejq0w
 - ETH Address: 0x939f0206b6cD3e1eA12bF1f4F44e8EB568C2B951
