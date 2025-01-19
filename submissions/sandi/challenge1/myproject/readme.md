@@ -41,5 +41,3 @@ you can visiting [Setting Permision](https://dragondeploy.xyz/pro-tips)
 ### 3. Uploading Your Files
 
 Drag and drop your project folder directly into DragonDeploy and verification your project with your wallet. Press accept to confirm the project. and then when it is finished, a link will appear to access your project.
-
-Good luck Bang !!
