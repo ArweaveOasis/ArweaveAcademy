@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: https://github.com/Alfonova-Node
+- github account: Alfonova-Node
 - Email: monichawellagady@gmail.com
 - Arweave Address: Xce1uGpfkc4owUV6gPQJuJ1xhRu4s_108iVDBDkHIN0
 - ETH Address: 0x850Be5564003F2247111129F045d7Ff4139bB8AD
