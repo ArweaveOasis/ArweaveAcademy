@@ -1,4 +1,4 @@
-[中文](./doc/README_CN.md) / [English](./doc/README_EN.md)
+[![中文](https://img.shields.io/badge/lang-中文-red.svg)](./doc/README_CN.md) / [![English](https://img.shields.io/badge/lang-English-blue.svg)](./doc/README_EN.md)
 
 # School of DumDum
 
