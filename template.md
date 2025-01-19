@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: mizimi
+- github account: https://github.com/mizimi
 - Email: ita7059@gmail.com
 - Arweave Address: qGqHR6yqMvIzGcjHBdJw5LOu_XfdC56Y80wtNBKKqi8
 - ETH Address:0x2EDC23B33c2167518BAa8D35482cb0e368E3927B
