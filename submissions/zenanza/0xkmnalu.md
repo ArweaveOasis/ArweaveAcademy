@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account:0xkmnalu
+- github account:zenanza
 - Email:lukmankun10@gmail.com
 - Arweave Address:CoVXZBRfK-UDCdJ8rvVuiesAaNRq5DBFO28mVM6o-UY
 - ETH Address:0xF2d8C2d39D8F6553071011fe3D7Aa5bdb1AA8c0e
