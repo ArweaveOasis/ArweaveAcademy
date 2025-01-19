@@ -21,9 +21,12 @@ project-folder/
 ├── index.html       # Main HTML file for the Contact page
 ├── contact.html     # HTML file for contact page
 ├── about.html       # HTML file for about page
+├── style.css        # CSS file for styling
+├── assets/          # Folder for assets like images and icons
+├── sc/              # Folder containing project screenshots
 └── README.md        # Documentation file
-```
 
+```
 ## 🚀 Deployment
 This project has been deployed in [DragonDeploy](https://dragondeploy.xyz) and can be accessed at:
 [arweave.net/8VHL96zKUFz7i8y9zUnmi0jIurxFAbdzlwbU0MozEnk/](https://arweave.net/8VHL96zKUFz7i8y9zUnmi0jIurxFAbdzlwbU0MozEnk/)
@@ -31,5 +34,5 @@ This project has been deployed in [DragonDeploy](https://dragondeploy.xyz) and c
 ## 💻 Instalasi
 1. Clone repository 
 ```bash
-git clone [https://github.com/Madleyym/Arweave-Academy/tree/main/submissions/fork-Madlleym/challenge1]
+git clone https://github.com/Madleyym/Arweave-Academy/tree/main/submissions/fork-Madlleym/challenge1
 ```
