@@ -5,7 +5,7 @@
 - github account: @abispakai
 - Email: iansofianfi@gmail.om
 - Arweave Address: L1VCTFBs8EtNK-2VQqeBQZacVPEap4OR_U9OPZr2A_A
-- ETH Address: 
+- ETH Address: 0x17E9167F0CC3e14c33f01651DBf58A7aC58d423B
 - Please finish this [form](https://docs.google.com/forms/d/e/1FAIpQLSfWA5fIIcBgmRppm3jNz5vmf9Mai_QMVil-2pO4r7YKn_Zhtw/viewform?usp=sf_link) to join in the talent pool.
 
 ### Introduce Yourself
