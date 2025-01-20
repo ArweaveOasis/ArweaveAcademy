@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 50px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #005bb5;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Section Styles */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
