@@ -4,10 +4,10 @@ You can access this website it at: [DUNIA KRIPTOD](https://4wxqwid6kgxsqdam6lbgv
 
 ## Screenshots Website Menu
 
-![Homepage Screenshot](assets/ss/ss1.jpg)
-![Latest Article Screenshot](assets/ss/ss2.jpg)
-![About](assets/ss/ss3.jpg)
-![Latest New](assets/ss/ss4.jpg)
+![Homepage Screenshot](assets/ss/1.jpg)
+![Latest Article Screenshot](assets/ss/2.jpg)
+![About](assets/ss/3.jpg)
+![Latest New](assets/ss/4.jpg)
 
 ## Description
 
