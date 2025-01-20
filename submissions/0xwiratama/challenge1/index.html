@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arweave by Wiratama</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Wiratama</div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./src/about.html">About Us</a></li>
+                <li><a href="./src/news.html">News</a></li>
+                <li><a href="./src/contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+ <main>
+    <h1>Welcome to Wiratama Website</h1>
+    <p>
+        This is the home page of our website. Explore more about us, our latest news, and feel free to contact us.
+    </p>
+    <img src="assets/images/image.jpg" alt="Home">
+
+    <section class="articles">
+        <h2>Latest Articles</h2>
+        <div class="article-card">
+            <img src="assets/images/image1.jpg" alt="Article 1">
+            <h3>Understanding Cryptocurrency</h3>
+            <p>
+                Cryptocurrency is a digital asset designed to work as a medium of exchange that uses cryptography to 
+                secure financial transactions. 
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article-card">
+            <img src="assets/images/image2.jpg" alt="Article 2">
+            <h3>How Blockchain Works</h3>
+            <p>
+                Blockchain technology is the foundation of cryptocurrency, offering a decentralized and secure way of 
+                conducting digital transactions.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article-card">
+            <img src="assets/images/image3.jpg" alt="Article 3">
+            <h3>Building a Crypto Community</h3>
+            <p>
+                A strong crypto community can support the adoption and growth of blockchain-based technologies through 
+                collaboration and innovation.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2025 Wiratama. All rights reserved.</p>
+    </footer>
+</body>
+</html>
