@@ -3,7 +3,7 @@
 
 ### Personal information
 
-- github account: Fwzryy
+- github account: https://github.com/Fwzryy
 - Email: raihan0603@gmail.com
 - Arweave Address: XavhNVVEEf8wDxlWleV5hi9tQF-W4TPUQR-Oje_00jw
 - ETH Address: 0x845c856a73d9c0820b4d910eb6a4dd0493344e56
