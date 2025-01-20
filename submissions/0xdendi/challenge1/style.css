@@ -1,0 +1,39 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.intro {
+    background-image: url('assets/images/1.jpg');
+}
+
+.content {
+    background-image: url('assets/images/2.jpg');
+}
+
+.footer {
+    background-image: url('assets/images/5.jpg');
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    height: 100vh;
+    font-size: 4em;
+    letter-spacing: 20px;
+    font-family: fantasy;
+    color: white;
+}
