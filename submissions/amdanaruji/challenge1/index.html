@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dattio Labs</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Dattio Labs!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="src/about.html">About Us</a></li>
+                <li><a href="src/news.html">News</a></li>
+                <li><a href="src/contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+
+    <section>
+        <img src="assets/images/gambar1.jpg" alt="Home">
+        <p>Selamat datang di halaman utama website kami. Kami menyediakan berbagai informasi terbaru yang dapat Anda nikmati.</p> 
+        <section>
+            <h2>Informasi Terbaru</h2>  
+            <div class="article-container">
+                <div class="article-card">
+                    <img src="assets/images/image1.jpg" alt="Article 1">
+                    <h3>Understanding Cryptocurrency</h3>
+                    <p>Cryptocurrency is a digital asset designed to work as a medium of exchange...</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="article-card">
+                    <img src="assets/images/image2.jpg" alt="Article 2">
+                    <h3>Sentimen Negatif Mendominasi, Harga Uang Kripto Litecoin Jatuh 10%</h3>
+                    <p>Harga mata uang kripto Litecoin diperdagangkan pada $114,537 pukul 18:53 (11:53 GMT) di Investing.com Index pada hari Minggu, dan harga jatuh 10,22% untuk hari ini. Itu merupakan persentase kerugian satu hari terbesar sejak sejak 18 Desember 2024.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="article-card">
+                    <img src="assets/images/image3.jpg" alt="Article 3">
+                    <h3>XRP Bermitra dengan Grayscale, Cetak Rekor ATH Baru, dan Bidik US$ 15, Prediksi Berani di Depan!</h3>
+                    <p>XRP milik perusahaan Ripple sedang membuat gebrakan besar dengan perkembangan penting. Grayscale telah meluncurkan XRP Trust, mempermudah institusi untuk mengakses XRP, sementara token ini menembus pola kunci di grafiknya.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Website Kami. All rights reserved.</p>
+    </footer>
+</body>
+</html>
