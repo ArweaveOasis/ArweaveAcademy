@@ -4,10 +4,10 @@ You can access this website it at: [roden crypto](https://7tzhoygmpqckvq5nkve2qv
 
 ## Screenshots Website Menu
 
-![Homepage Screenshot](assets/ss/sj1.jpg)
-![Latest Article Screenshot](assets/ss/sj2.jpg)
-![About](assets/ss/sj3.jpg)
-![Latest New](assets/ss/sj4.jpg)
+![Homepage Screenshot](assets/SS/sj1.jpg)
+![Latest Article Screenshot](assets/SS/sj2.jpg)
+![About](assets/SS/sj3.jpg)
+![Latest New](assets/SS/sj4.jpg)
 
 
 ## Description
