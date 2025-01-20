@@ -1,6 +1,6 @@
-# CHVerse Website
+# CHVerse Community Website
 
-You can access this website it at: [Bang Pateng](https://fcte3xahrkr2cemsk753euffdxwh4bkd6dzmuy6c7b44ciqiapwa.arweave.net/KKZN3AeKo6ERklf7slClHex-BUPw8spjwvh5wSIIA-w/)
+You can access this website it at: [CHVerse](https://fcte3xahrkr2cemsk753euffdxwh4bkd6dzmuy6c7b44ciqiapwa.arweave.net/KKZN3AeKo6ERklf7slClHex-BUPw8spjwvh5wSIIA-w/)
 
 ## Screenshots Website Menu
 
@@ -12,7 +12,7 @@ You can access this website it at: [Bang Pateng](https://fcte3xahrkr2cemsk753euf
 
 ## Description
 
-Bang Pateng Website Cryptocurrency is a digital asset designed to work as a medium of exchange that uses cryptography to secure financial transactions. 
+CHVerse Community Website is a forward-thinking digital agency specializing in advertising and Web3 blockchain solutions.
 
 
 this website deploy use [Dragondeploy](https://dragondeploy.xyz/)
@@ -41,5 +41,3 @@ you can visiting [Setting Permision](https://dragondeploy.xyz/pro-tips)
 ### 3. Uploading Your Files
 
 Drag and drop your project folder directly into DragonDeploy and verification your project with your wallet. Press accept to confirm the project. and then when it is finished, a link will appear to access your project.
-
-Good luck Bang !!
