@@ -1,6 +1,6 @@
 # CHVerse Community Website
 
-You can access this website it at: [CHVerse](https://fcte3xahrkr2cemsk753euffdxwh4bkd6dzmuy6c7b44ciqiapwa.arweave.net/KKZN3AeKo6ERklf7slClHex-BUPw8spjwvh5wSIIA-w/)
+You can access this website it at: [CHVerse](https://u7otm25rpyisa4az5hp5wdagsfei25hhj74efrgyhbp6twbkszhq.arweave.net/p902a7F-ESBwGenf2wwGkUiNdOdP-ELE2Dhf6dgqlk8/)
 
 ## Screenshots Website Menu
 
