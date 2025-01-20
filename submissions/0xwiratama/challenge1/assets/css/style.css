@@ -1,0 +1,252 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Navigation */
+header {
+    background: linear-gradient(to right, #2d2d2f, #2d2d2f);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Responsive Navigation Menu */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle div {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 5px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Main Content */
+main {
+    padding: 120px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main h1 {
+    font-size: 36px;
+    color: #2d2d2f;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #005bb5;
+}
+
+/* Articles Section */
+.articles {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.articles h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article-card {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.article-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.article-card h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.article-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background: #2d2d2f;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Form Styling */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form button:hover {
+    background: #005bb5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background: #0073e6;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .article-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    main {
+        padding: 50px 15px;
+    }
+}
