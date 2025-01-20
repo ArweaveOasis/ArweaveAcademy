@@ -1,13 +1,13 @@
 # Nashirudin Website
 
-You can access this website it at: [roden crypto](https://7tzhoygmpqckvq5nkve2qvpu36qufzkrwfd7etzssghjl2cvycaq.arweave.net/_PJ3YMx8BKrDrVVJqFX036FC5VGxR_JPMpGOlehVwIE/)
+You can access this website it at: [roden crypto](https://d7elkklh3rks7idikktdwx3zcxw7l3xndxivxgkoywtoa57ayv6q.arweave.net/H8i1KWfcVS-gaFKmO195Fe317u0d0VuZTsWm4HfgxX0/)
 
 ## Screenshots Website Menu
 
-![Homepage Screenshot](assets/SS/sj1.jpg)
-![Latest Article Screenshot](assets/SS/sj2.jpg)
-![About](assets/SS/sj3.jpg)
-![Latest New](assets/SS/sj4.jpg)
+![Homepage Screenshot](assets/ss/sj1.jpg)
+![Latest Article Screenshot](assets/ss/sj2.jpg)
+![About](assets/ss/sj3.jpg)
+![Latest New](assets/ss/sj4.jpg)
 
 
 ## Description
