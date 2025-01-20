@@ -3,45 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
+    <title>Arweave by BNashirudin</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <div class="logo">Nashirudin</div>
+            <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="src/about.html">About Us</a></li>
-                <li><a href="src/news.html">News</a></li>
-                <li><a href="src/contact.html">Contact</a></li>
+                <li><a href="./src/about.html">About Us</a></li>
+                <li><a href="./src/news.html">News</a></li>
+                <li><a href="./src/contact.html">Contact</a></li>
             </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </nav>
     </header>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+ <main>
+    <h1>Welcome to roden crypto</h1>
+    <p>
+        This is the home page of our website. Explore more about us, our latest news, and feel free to contact us.
+    </p>
+    <img src="assets/images/calg2.jpg" alt="Home">
 
-    <main>
-        <section class="hero">
-            <h1>Welcome to Our Website</h1>
-            <p>Your one-stop destination for the latest updates and information.</p>
-        </section>
+    <section class="articles">
+        <h2>Latest Articles</h2>
+        <div class="article-card">
+            <img src="assets/images/calg.jpg" alt="Article 1">
+            <h3>Understanding Cryptocurrency</h3>
+            <p>
+                Cryptocurrency is a digital asset designed to work as a medium of exchange that uses cryptography to 
+                secure financial transactions. 
+            </p>
+            <a href="#">Read More</a>
+        </div>
 
-        <section class="features">
-            <div>
-                <h2>About Us</h2>
-                <p>Learn more about our mission and vision.</p>
-            </div>
-            <div>
-                <h2>Latest News</h2>
-                <p>Stay updated with the latest happenings.</p>
-            </div>
-            <div>
-                <h2>Contact Us</h2>
-                <p>We'd love to hear from you. Get in touch!</p>
-            </div>
-        </section>
-    </main>
+        <div class="article-card">
+            <img src="assets/images/calg3.jpg" alt="Article 2">
+            <h3>How Blockchain Works</h3>
+            <p>
+                Blockchain technology is the foundation of cryptocurrency, offering a decentralized and secure way of 
+                conducting digital transactions.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article-card">
+            <img src="assets/images/calg4.jpg" alt="Article 3">
+            <h3>Building a Crypto Community</h3>
+            <p>
+                A strong crypto community can support the adoption and growth of blockchain-based technologies through 
+                collaboration and innovation.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+</main>
 
     <footer>
-        <p>&copy; 2025 Simple Website. All rights reserved.</p>
+        <p>&copy; 2025 Nashirudin. All rights reserved.</p>
     </footer>
 </body>
 </html>
