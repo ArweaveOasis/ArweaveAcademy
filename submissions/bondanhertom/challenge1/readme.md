@@ -1,6 +1,6 @@
 # Kojok Website
 
-You can access this website at: [Kojok News](YOUR_LIVE_WEBSITE_LINK)
+You can access this website at: [Kojok News](https://mydmv4b5rx6tlkygsn3udlf3zlsjvquz2dls7plhp23eswgnzveq.arweave.net/ZgbK8D2N_TWrBpN3Qay7yuSawpnQ1y-9Z362SVjNzUk/)
 
 ## Screenshots
 
