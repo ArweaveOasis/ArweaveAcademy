@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeyondMyDreams - Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #f1f1f1;
+        }
+
+        header {
+            background-color: #1c416e;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: #f1f1f1;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            color: #9fe7ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #60b6e2;
+        }
+
+        .hero {
+            background-color: #1e1e1e;
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero .centered h2 {
+            font-size: 2rem;
+            color: #9fe7ff;
+        }
+
+        .hero .centered p {
+            font-size: 1.2rem;
+        }
+
+        .news {
+            display: flex;
+            gap: 2rem;
+            padding: 0 2rem;
+        }
+
+        .left-column, .right-column {
+            flex: 1;
+        }
+
+        .post {
+            background-color: #1e1e1e;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .post h3 {
+            font-size: 1.4rem;
+            color: #9fe7ff;
+            margin-bottom: 0.5rem;
+        }
+
+        .post p {
+            margin-bottom: 0.5rem;
+        }
+
+        .read-more {
+            color: #60b6e2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: #9fe7ff;
+            text-align: center;
+            padding: 1rem 0;
+            border-top: 1px solid #333;
+        }
+
+        footer a {
+            color: #9fe7ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #60b6e2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>BeyondMyDreams</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="src/about.html">About Us</a></li>
+                <li><a href="src/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="centered">
+                <h2>Welcome to BeyondMyDreams</h2>
+                <p>Your gateway to the future of blockchain technology and cryptocurrency insights.</p>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="left-column">
+                <!-- Post 1 -->
+                <article class="post">
+                    <h3>Arweave: A Revolutionary Storage Solution</h3>
+                    <p>Arweave is reshaping the landscape of data storage with its groundbreaking blockweave technology.</p>
+                    <a href="src/news1.html" class="read-more">Read More...</a>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="post">
+                    <h3>Empowering Decentralized Applications with Arweave</h3>
+                    <p>Discover how developers are leveraging Arweave to build decentralized applications with unparalleled storage capabilities.</p>
+                    <a href="src/news2.html" class="read-more">Read More...</a>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="post">
+                    <h3>Arweave and the Future of Blockchain Storage</h3>
+                    <p>Learn about Arweave's vision for scalable, efficient, and sustainable blockchain storage that meets the demands of the digital age.</p>
+                    <a href="src/news3.html" class="read-more">Read More...</a>
+                </article>
+            </div>
+
+            <div class="right-column">
+                <!-- Post 4 -->
+                <article class="post">
+                    <h3>Arweave's Profit Sharing Communities</h3>
+                    <p>Arweave's Profit Sharing Communities (PSCs) introduce an innovative model for decentralized collaboration and innovation. By integrating Profit Sharing Tokens (PSTs) with decentralized governance, PSCs empower contributors to have a direct stake in the success of the projects they support.</p>
+                    <a href="src/news4.html" class="read-more">Read More...</a>
+                </article>
+
+                <!-- Post 5 -->
+                <article class="post">
+                    <h3>Arweave: Preserving History</h3>
+                    <p>Arweave is pioneering the preservation of historical data through its permanent, decentralized storage network, ensuring that vital information remains accessible for future generations.</p>
+                    <a href="src/news5.html" class="read-more">Read More...</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 BeyondMyDreams. All rights reserved. | <a href="src/contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
