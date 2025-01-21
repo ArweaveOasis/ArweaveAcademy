@@ -1,4 +1,4 @@
-# Bang Pateng Website
+# Bagusekawx Website
 
 You can access this website it at: [Bagusekawx](https://3mzxpaa6ipisotpzmliugrpdcf4wwonbyx2kps3xrmnyxo4vrifq.arweave.net/2zN3gB5D0SdN-WLRQ0XjEXlrOaHF9KfLd4sbi7uVigs/)
 
