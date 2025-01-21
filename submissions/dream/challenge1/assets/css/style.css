@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Abu gelap untuk background */
+    color: #ffffff; /* Teks putih */
+}
+
+/* Header */
+header {
+    background-color: #106b8d; /* Abu-abu medium */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; /* Align items to the left and right */
+    align-items: center; /* Vertically center the items */
+}
+
+header .logo h1 {
+    margin: 0;
+    color: #dff7ff; /* Abu-abu terang untuk judul */
+}
+
+/* Navigation Menu (Top-right) */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; /* Align the links to the right */
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #9fe7ff; /* Biru muda */
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center; /* Teks rata tengah */
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #afe3ff; /* Biru lebih terang */
+    color: #484848; /* Kontras gelap saat hover */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center; /* Center the content */
+    padding: 2rem 1rem; /* Add padding for spacing */
+    background-color: #1e1e1e; /* Slightly lighter background for distinction */
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #9fe7ff;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 600px; /* Limit the width for readability */
+    line-height: 1.6;
+    color: #dff7ff;
+    white-space: nowrap; /* Ensure the text is on one line */
+}
+
+/* News Section */
+.news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+    gap: 0.8rem; /* Further reduced space between columns */
+    padding: 2rem 1rem;
+    background-color: #121212; /* Abu gelap */
+}
+
+.news .left-column {
+    grid-column: span 2; /* Mengambil 2/3 dari grid */
+}
+
+.news .right-column {
+    grid-column: span 1; /* Mengambil 1/3 dari grid */
+}
+
+/* Post Styles */
+.post {
+    background-color: #2a2a2a; /* Abu medium untuk post */
+    padding: 1.5rem;
+    margin-bottom: 0.8rem; /* Further reduced space between articles */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
+
+.post h3 {
+    color: #8ae0ff; /* Biru muda untuk judul */
+    margin-top: 0;
+}
+
+.post p {
+    margin: 0.5rem 0 1rem 0;
+    line-height: 1.6;
+}
+
+.post a {
+    color: #8ae0ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1e1e; /* Warna abu medium */
+    text-align: center;
+    padding: 1rem 0;
+    color: #ffffff;
+    margin-top: 2rem;
+    border-top: 1px solid #333333; /* Garis pembatas abu */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .news {
+        grid-template-columns: 1fr; /* 1 kolom untuk layar kecil */
+    }
+    .news .left-column,
+    .news .right-column {
+        grid-column: span 1; /* Semua kolom akan memiliki lebar penuh */
+    }
+}
