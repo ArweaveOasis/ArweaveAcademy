@@ -1,91 +1,43 @@
 /* Global Styles */
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aisprata</title>
+    
+    <!-- Menambahkan Font Awesome untuk ikon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
-/* Container */
-.container {
-    width: 90%;
-    max-width: 400px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    <!-- Menambahkan Google Fonts (contoh: Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css"> <!-- Nantinya kita akan menambahkan CSS di sini -->
+</head>
+<body>
+    <div class="container">
+        <!-- Foto Profil -->
+        <div class="profile">
+            <img src="img/snopdogg.png" alt="Foto Profil" class="profile-img">
+            <h1 class="profile-name">Aisprata</h1>
+        </div>
 
-/* Profil */
-.profile {
-    margin-bottom: 20px;
-}
-
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #3498db;
-}
-
-.profile-name {
-    font-size: 24px;
-    font-weight: 600;
-    color: #333;
-    margin-top: 10px;
-    letter-spacing: 1px;
-}
-
-/* Social Links */
-.social-links {
-    width: 100%;
-}
-
-.social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #3498db;
-    color: #fff;
-    padding: 12px;
-    margin: 8px 0;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.social-link i {
-    margin-right: 10px;
-    font-size: 18px;
-}
-
-.social-link:hover {
-    background-color: #2980b9;
-    transform: translateY(-3px);
-}
-
-/* Responsiveness */
-@media (max-width: 500px) {
-    .container {
-        width: 90%;
-        padding: 20px;
-    }
-
-    .profile-name {
-        font-size: 20px;
-    }
-
-    .social-link {
-        font-size: 14px;
-    }
-}
+        <!-- Link ke Social Media -->
+        <div class="social-links">
+            <a href="https://www.instagram.com/cl3ngg" class="social-link" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.twitter.com/superkang17" class="social-link" target="_blank">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://www.linkedin.com/in/aisyah-pratana-655880321" class="social-link" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/aisyahpratama" class="social-link" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+</body>
+</html>
