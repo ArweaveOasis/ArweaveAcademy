@@ -80,11 +80,11 @@ Developers who complete all the courses and submit the tasks will receive a Leve
 
 <!-- 3. Why should developers care about Arweave？| [Learn]() -->
 
-| Task | Topic | Status |
-|-------|-------|-------|
-| [task1](https://openbuild.xyz/quiz/202501081) | 6 Quizs for "Intro to Arweave" | Ongoing |
-| [task2](https://openbuild.xyz/quiz/202501082) | 8 Quizs for "Intro to Arweave" | Ongoing |
-| [task3](https://openbuild.xyz/quiz/202501083) | 9 Quizs for "Storing Data on Arweave" | Ongoing |
+| Task | Topic | Status | Review |
+|-------|-------|-------|-------|
+| [task1](https://openbuild.xyz/quiz/202501081) | 6 Quizs for "Intro to Arweave" | Ongoing |[Review](https://x.com/ArweaveOasis/status/1881249788186022397) |
+| [task2](https://openbuild.xyz/quiz/202501082) | 8 Quizs for "Intro to Arweave" | Ongoing | --- |
+| [task3](https://openbuild.xyz/quiz/202501083) | 9 Quizs for "Storing Data on Arweave" | Ongoing |--- |
 
 #### Module 2: Basic development on Arweave
 
