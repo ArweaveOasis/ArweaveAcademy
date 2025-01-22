@@ -1,0 +1,22 @@
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]
+  display: inline-block
+  padding: 5px 25px
+  color: $c-highlight
+  font-weight: 700
+  text-decoration: none
+  background-color: transparent
+  border-radius: 25px
+  border: 2px solid $c-highlight
+  cursor: pointer
+  transition: .2s all ease-in-out
+
+  &:hover,
+  &:active,
+  &:focus
+    color: lighten($c-highlight, 15%)
+    border-color: lighten($c-highlight, 15%)
+    
