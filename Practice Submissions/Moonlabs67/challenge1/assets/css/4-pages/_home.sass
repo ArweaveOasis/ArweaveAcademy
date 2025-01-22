@@ -1,0 +1,698 @@
+/************************* Introduction *************************/
+
+.introduction
+	position: relative
+	display: flex
+	width: 100%
+	height: 100vh
+	align-items: center
+	justify-content: center
+	
+	&::before
+		content: "JM"
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		font-size: 40vw
+		font-weight: 800
+		opacity: .05
+	
+	&__content
+		color: $c-secondary
+		font-size: 16px
+		font-weight: 800
+		
+		&-el
+			display: block
+			
+			&--name
+				transform: translateX(-30px)
+				opacity: 0
+				
+			&--description
+				transform: matrix( 1.01107311016097,0,0,1.01107311016097,0,0)
+				margin: 10px 0
+				color: $white
+				font-size: 16vw
+				text-align: center
+				text-transform: uppercase
+				text-shadow: 10px 18px 35px rgba(88,88,88,.23)
+				
+			&--job
+				transform: translateX(30px)
+				text-align: right
+				opacity: 0
+	
+	&__arrow
+		position: absolute
+		bottom: 10%
+		left: 50%
+		transform: translate(-12px, 0px)
+		width: 24px
+		fill: $c-highlight
+		animation: scrollDown 1.6s infinite
+		
+	@media (min-width: 1440px)
+		
+		&::before
+			font-size: 576px
+			
+		&__content
+		
+			&-el
+			
+				&--description
+					font-size: 230px
+					
+	@media (max-height: 540px)
+		
+		&__arrow
+			animation: none
+					
+/************************* About *************************/
+
+.about
+	position: relative
+	width: 100%
+	height: 625px
+	background-color: $bg-secondary
+	
+	&__wrapper
+		display: flex
+		align-items: center
+		justify-content: flex-end
+		
+		&::before
+			content: ""
+			position: absolute
+			top: 45px
+			left: 0
+			right: 120px
+			bottom: 45px
+			border: 10px solid $c-highlight
+		
+	&__visual
+		position: absolute
+		left: 45px
+		bottom: 0
+		z-index: 2
+		
+	&__content
+		position: relative
+		z-index: 1
+				
+		&-signature
+			position: absolute
+			bottom: -175px
+			left: 0
+			font-size: 30px
+			font-family: 'Allura', cursive
+			
+	@media (max-width: 991px)
+	
+		padding: 60px 0
+		
+		&__wrapper
+			align-items: flex-start
+			justify-content: center
+			
+			&::before
+				right: 0
+				bottom: 0
+			
+		&__visual
+			bottom: -60px
+			left: 50%
+			transform: translateX(-50%)
+			
+		&__content
+			text-align: center
+			
+			&-blurb
+				padding: 0 15px
+				
+				h2
+					font-size: 48px
+				
+				p
+					margin-bottom: 10px
+					
+			&-signature
+				position: static
+				font-size: 24px
+				
+	@media (max-width: 767px)
+	
+		height: 540px
+			
+		&__visual
+			width: 335px
+			
+		&__content
+			
+			&-blurb
+				
+				h2
+					font-size: 32px
+					
+	@media (max-width: 480px)
+	
+		height: 480px
+		
+		&__wrapper
+			
+			&::before
+				display: none
+			
+		&__visual
+			width: 290px
+			max-width: 100%
+			
+/************************* App Design *************************/
+
+.app-design
+	position: relative
+	width: 100%
+	padding: 180px 0
+	overflow: hidden
+			
+	&__visual
+		position: absolute
+		top: 35px
+		left: 45%
+		width: 1036px
+		height: 659px
+		margin: 0
+		background:
+			image: url("../img/app-design-visual.png")
+			position: center
+			size: 100%
+			repeat: no-repeat
+			
+	@media (max-width: 991px)
+			
+		&__content
+		
+			h2
+				font-size: 48px
+				
+		&__visual
+			width: 922px
+			height: 586px
+			
+	@media (max-width: 767px)
+		
+		height: 400px
+		padding: 60px 0
+			
+		&__content
+			text-align: center
+			
+			h2
+				font-size: 32px
+				
+				br
+					display: none
+					
+			p
+				margin: 0 auto 20px auto
+				
+		&__visual
+			top: auto
+			left: 50%
+			bottom: -175px
+			transform: translateX(-50%)
+			width: 679px
+			height: 439px
+			
+	@media (max-width: 480px)
+		
+		&__visual
+			bottom: -100px
+			width: 576px
+			height: 366px
+			
+/************************* Web Design *************************/
+
+.web-design
+	position: relative
+	width: 100%
+	padding: 200px 0
+	background-color: $bg-secondary
+	overflow: hidden
+	
+	&__wrapper
+		display: flex
+		justify-content: flex-end
+			
+	&__visual
+		position: absolute
+		top: 50%
+		right: 52%
+		transform: translateY(-45%)
+		width: 828px
+		height: 581px
+		margin: 0
+		background:
+			image: url("../img/web-design-visual.png")
+			position: center
+			size: 100%
+			repeat: no-repeat
+			
+	@media (max-width: 991px)
+			
+		&__content
+		
+			h2
+				font-size: 48px
+				
+		&__visual
+			right: 45%
+			width: 741px
+			height: 520px
+			
+	@media (max-width: 767px)
+		
+		height: 525px
+		padding: 60px 0
+		
+		&__wrapper
+			justify-content: center
+			
+		&__content
+			text-align: center
+			
+			h2
+				font-size: 32px
+				
+				br
+					display: none
+				
+		&__visual
+			top: auto
+			right: auto
+			left: 50%
+			bottom: 0
+			transform: translateX(-50%)
+			width: 523px
+			height: 376px
+			
+	@media (max-width: 480px)
+		
+		height: 425px
+		
+		&__visual
+			width: 392px
+			height: 275px
+			
+/************************* Work *************************/
+
+.work
+	position: relative
+	width: 100%
+	padding: 120px 0 60px 0
+	background-color: $bg-secondary
+		
+	&__list
+		position: relative
+		padding: 60px 0
+		
+		&::before
+			content: ""
+			position: absolute
+			top: 0
+			left: 175px
+			right: 125px
+			bottom: 0
+			border: 10px solid $c-highlight
+		
+		&-el
+			display: none
+		
+			&--is-active
+				display: flex
+				align-items: center
+				justify-content: space-between
+				
+				.work
+				
+					&__content
+					
+						&-blurb
+							
+							h3,
+							p
+								animation: scaleUp .6s
+					
+					&__visual
+						animation: scaleUp .6s
+				
+	&__content
+		position: relative
+		width: 42.5%
+		z-index: 1
+		
+		&-blurb
+			
+			h3
+				font-size: 54px
+				
+			p
+				max-width: 350px
+				
+	&__visual
+		position: relative
+		width: 52.5%
+		box-shadow: 5px 8px 30px 1px rgba(0,0,0,.21)
+		z-index: 2
+		
+		img
+			display: block
+			width: 100%
+			
+	&__navigation
+		display: flex
+		width: 100px
+		justify-content: space-between
+		margin: 45px auto 0 auto
+		
+		&-el
+			display: block
+			width: 12px
+			height: 12px
+			background-color: #e0e0e0
+			border-radius: 50%
+			cursor: pointer
+			
+			&--is-active
+				background-color: transparent
+				box-shadow: 0 0 0 2px $c-primary
+				
+	@media (max-width: 991px)
+	
+		padding: 90px 0 60px 0
+		
+		&__heading
+			font-size: 48px
+			
+		&__list
+			padding: 0
+			
+			&::before
+				top: 45px
+				left: 0
+				right: 0
+				bottom: 45px
+			
+			&-el
+			
+				&--is-active
+					flex-direction: column
+					
+		&__content
+			width: auto
+			max-width: 100%
+			margin-bottom: 45px
+			text-align: center
+			
+			&-blurb
+				padding: 0 15px
+				
+				h3
+					font-size: 42px
+					
+				p
+					max-width: 300px
+					
+		&__visual
+			width: 600px
+			max-width: 75%
+			
+	@media (max-width: 767px)
+		
+		&__heading
+			font-size: 32px
+					
+		&__content
+			
+			&-blurb
+				
+				h3
+					font-size: 30px
+					
+	@media (max-width: 480px)
+	
+		&__list
+			
+			&::before
+				display: none
+				
+		&__visual
+			max-width: 100%
+			
+/************************* Blog *************************/
+
+.blog
+	position: relative
+	padding: 60px 0
+		
+	&__wrapper
+		display: flex
+		justify-content: space-between
+		
+	&__post
+		width: 33.33%
+		margin-right: 30px
+		
+		&:last-child
+			margin-right: 0
+			
+		&-thumbnail
+			width: 100%
+			box-shadow: 5px 8px 30px 1px rgba(0,0,0,.21)
+			
+			img
+				display: block
+				width: 100%
+				
+		&-excerpt
+			
+			h3
+				color: $c-primary
+				font-size: 24px
+				
+	&__view-more
+		margin-top: 90px
+		text-align: center
+		
+		&--el
+			padding: 8px 30px
+		
+	@media (max-width: 991px)
+		
+		&__heading
+			font-size: 48px
+			
+		&__wrapper
+			flex-direction: column
+			align-items: center
+			
+		&__post
+			width: 450px
+			max-width: 100%
+			margin: 0 0 45px 0
+			
+			&:last-child
+				margin-bottom: 0
+					
+			&-excerpt
+				text-align: center
+				
+				h3
+					margin-bottom: 10px
+					
+	@media (max-width: 767px)
+		
+		&__heading
+			font-size: 32px
+			
+/************************* Contact *************************/
+
+.contact
+	position: relative
+	padding: 60px 0
+	background-color: $bg-secondary
+	
+	&__wrapper
+		display: flex
+		align-items: center
+		justify-content: space-between
+		padding: 60px 0
+		
+		&::before
+			content: ""
+			position: absolute
+			top: 0
+			left: 75px
+			right: 75px
+			bottom: 0
+			border: 10px solid $c-highlight
+		
+	&__visual
+		position: relative
+		width: 47.5%
+		box-shadow: 5px 8px 30px 1px rgba(0,0,0,.21)
+		z-index: 2
+		
+		img
+			display: block
+			width: 100%
+			
+	&__form
+		position: relative
+		display: flex
+		width: 47.5%
+		flex-wrap: wrap
+		justify-content: space-between
+		padding: 15px 0
+		background-color: $bg-secondary
+		z-index: 1
+		
+		&-el
+			padding: 0 0 0 15px
+			font-size: 16px
+			font-weight: 700
+			background-color: transparent
+			border: 1px solid $c-secondary
+			border-radius: 3px
+		
+			&--name,
+			&--email
+				width: 45%
+				height: 50px
+			
+			&--message
+				width: 100%
+				height: 150px
+				margin: 20px 0 30px 0
+				padding-top: 15px
+				resize: none
+				
+		input[type="submit"]
+			margin-left: auto
+			padding: 10px 50px
+			
+	@media (max-width: 991px)
+		
+		&__heading
+			font-size: 48px
+		
+		&__wrapper
+			flex-direction: column
+			padding: 0
+			
+			&::before
+				top: 45px
+				left: 0
+				right: 0
+				bottom: 45px
+			
+		&__visual
+			width: 600px
+			max-width: 75%
+			order: 2
+				
+		&__form
+			width: 600px
+			max-width: 75%
+			margin-bottom: 45px
+			padding: 0 15px
+			
+	@media (max-width: 767px)
+	
+		&__heading
+			font-size: 32px
+				
+		&__form
+			
+			&-el
+			
+				&--name,
+				&--email
+					width: 100%
+					
+				&--name
+					margin-bottom: 10px
+				
+				&--message
+					margin: 10px 0 20px 0
+					
+	@media (max-width: 480px)
+		
+		&__wrapper
+			
+			&::before
+				display: none
+			
+		&__visual
+			max-width: 100%
+				
+		&__form
+			max-width: 100%
+			padding: 0
+			
+			&-el
+			
+				&--name,
+				&--email
+					height: 40px
+					
+				&--message
+					height: 90px
+
+/************************* Footer *************************/
+
+.footer
+	position: relative
+	width: 100%
+	height: 100px
+	
+	&__wrapper
+		display: flex
+		align-items: center
+		justify-content: space-between
+		
+	&__logo
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		
+	&__arrow
+		display: flex
+		width: 50px
+		height: 50px
+		align-items: center
+		justify-content: center
+		
+		&-el
+			width: 24px
+			fill: $c-highlight
+			
+	@media (max-width: 767px)
+		
+		height: 150px
+		padding: 30px 0
+		
+		&__wrapper
+			flex-direction: column
+			
+		&__copyright
+			order: 3
+			
+		&__logo
+			position: static
+			transform: translate(0, 0)
+			order: 2
+			

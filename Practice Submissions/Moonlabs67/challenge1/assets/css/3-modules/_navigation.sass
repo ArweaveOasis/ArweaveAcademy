@@ -1,0 +1,127 @@
+.navigation
+	position: absolute
+	width: 100%
+	height: 100px
+	z-index: 10
+	
+	&__wrapper
+		display: flex
+		align-items: center
+		justify-content: space-between
+		
+	&__container
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		width: 45%
+		
+	&__list
+		display: flex
+		justify-content: space-between
+		
+		& > li a
+			color: $c-secondary
+			text-transform: uppercase
+			transition: color .2s ease-in-out
+			
+			&:hover
+				color: darken($c-secondary, 15%)
+				
+	&__burger
+		display: none
+		
+	@media (max-width: 991px)
+	
+		&__cta
+			display: none
+			
+		&__container
+			position: fixed
+			top: 0
+			left: 0
+			transform: translate(0, 0)
+			display: flex
+			width: 100%
+			height: 100%
+			align-items: center
+			justify-content: center
+			background-color: $white
+			opacity: 0
+			visibility: hidden
+			transition: visibility 0s .4s, opacity .4s
+			
+			&--is-open
+				opacity: 1
+				visibility: visible
+				transition: visibility 0s, opacity .4s
+				
+				.navigation__list
+					
+					& > li
+						@for $i from 1 through 4
+							&:nth-child(#{$i}) a
+								transition: transform .2s .2s * $i + .2s, color .2s ease-in-out
+					
+						& a
+							transform: translateY(0)
+							
+							&:hover
+								color: lighten($c-secondary, 15%)
+			
+		&__list
+			height: 250px
+			flex-direction: column
+			align-items: center
+			
+			& > li
+				overflow: hidden
+			
+				&	a
+					transform: translateY(100%)
+					color: $c-primary
+					font-weight: 700
+					transition: transform 0s .4s
+					
+		&__burger
+			position: relative
+			display: flex
+			width: 35px
+			height: 27px
+			flex-direction: column
+			justify-content: space-between
+			cursor: pointer
+			
+			&--is-open
+				
+				.navigation__burger-el
+					transition: transform .4s, opacity .2s
+					
+					&--top
+						transform: rotate(45deg)
+						
+					&--bottom
+						transform: rotate(-45deg)
+						
+					&--middle
+						opacity: 0
+			
+			&-el
+				display: block
+				width: 100%
+				height: 3px
+				background-color: $c-primary
+				transition: transform .4s, opacity .2s .2s
+				
+				&--top
+					transform-origin: left top
+				
+				&--bottom
+					transform-origin: left bottom
+					
+.scroll-lock
+	position: fixed
+	width: 100%
+	height: 100%
+	overflow: hidden
+	

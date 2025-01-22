@@ -1,0 +1,14 @@
+.transform-link
+	font-weight: 700
+
+	&::after
+		content: ""
+		display: block
+		width: 100%
+		height: 1px
+		background-color: $c-highlight
+		transition: transform .2s ease-out
+	
+	&:hover::after
+		transform: translateY(3px) scaleY(3)
+		
