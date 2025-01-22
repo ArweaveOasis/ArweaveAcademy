@@ -2,7 +2,7 @@
 
 ### Personal information
 
-- github account: @Moonlabs67
+- github account: Moonlabs67
 - Email: hendratroy79@gmail.com
 - Arweave Address: dAWx4z6mKhSwPeiZ9BpMDzMrqU_MTDxYYbQOChNuJos
 - ETH Address: 0xd15a19c8529fFDFCbAdbBa8EA752c8e7Ffa4Fa9c
