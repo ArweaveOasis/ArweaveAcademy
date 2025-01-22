@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arweave by otama</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Otama</div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./src/about.html">About Us</a></li>
+                <li><a href="./src/news.html">News</a></li>
+                <li><a href="./src/contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+ <main>
+    <h1>Welcome Otama Website</h1>
+    <p>
+        This is the home page of our website. Explore more about us, our latest news, and feel free to contact us.
+    </p>
+    <img src="assets/images/aboutme.jpg" alt="Home">
+
+    <section class="articles">
+        <h2>Latest Articles</h2>
+        <div class="article-card">
+            <img src="assets/images/image1.jpg" alt="Article 1">
+            <h3>Understanding ARwave</h3>
+            <p>
+                Arweave is a decentralized data storage protocol that enables permanent storage and global access through its Blockweave and SPoRA consensus, addressing scalability, data availability, and cost issues present in blockchain data storage.¹ It's essentially a collectively owned hard drive that never forgets, hosting the "permaweb" — a permanent, decentralized web with community-driven applications and platforms.²
+ 
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article-card">
+            <img src="assets/images/image2.jpg" alt="Article 2">
+            <h3>ARwave Blockchain </h3>
+            <p>
+                What Makes Arweave Unique?
+Arweave's blockchain protocol is specifically designed for permanent and decentralized data storage. This sets it apart from other blockchain networks.³ The project's goal is to provide a platform for indefinite data storage, making it an attractive option for various applications, including the preservation of humanity's most important data and hosting decentralized web apps.
+.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article-card">
+            <img src="assets/images/image3.jpg" alt="Article 3">
+            <h3>AO Computer</h3>
+            <p>
+                Blockchain technology has revolutionized the way data is stored, shared, and secured. An Architecture-Organizational (AO) computer integrates blockchain principles into its design, ensuring decentralized, secure, and transparent data management.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2025 Otama. All rights reserved.</p>
+    </footer>
+</body>
+</html>
