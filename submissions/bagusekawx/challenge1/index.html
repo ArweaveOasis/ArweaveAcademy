@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arweave by Bagusekawx</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Bagusekawx</div>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./src/about.html">About Us</a></li>
+                <li><a href="./src/news.html">News</a></li>
+                <li><a href="./src/contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("active");
+        }
+    </script>
+ <main>
+    <h1>Welcome to Gatoloco Gank Website</h1>
+    <p>
+        This is the home page of our website. Explore more about us, our latest news, and feel free to contact us.
+    </p>
+    <img src="assets/images/image.jpg" alt="Home">
+
+    <section class="articles">
+        <h2>Latest Articles</h2>
+        <div class="article-card">
+            <img src="assets/images/image1.jpg" alt="Article 1">
+            <h3>Introduction to the Arweave Protocol</h3>
+            <p>
+                Arweave is a groundbreaking decentralized storage solution that offers truly permanent 
+                data storage through a sustainable endowment model.
+           </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article-card">
+            <img src="assets/images/image2.jpg" alt="Article 2">
+            <h3>How Arweave Achieves Permanent and Sustainable Data Storage</h3>
+            <p>
+                By combining these technologies, Arweave offers a robust, eco-friendly solution for data storage 
+                that is both cost-effective and permanent.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="article-card">
+            <img src="assets/images/image3.jpg" alt="Article 3">
+            <h3>Real-World Applications and Benefits of the Arweave Protocol</h3>
+            <p>
+                By reducing reliance on centralized storage providers and offering long-term cost efficiency, it empowers businesses, 
+                governments, and individuals to preserve valuable data sustainably and securely.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2025 Bagusekawx. All rights reserved.</p>
+    </footer>
+</body>
+</html>
