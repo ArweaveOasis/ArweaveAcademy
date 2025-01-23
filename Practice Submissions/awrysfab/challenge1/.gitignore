@@ -5,3 +5,8 @@ node_modules/
 wallet.json
 arweave-key*.json
 arweave-keyfile*.json
+
+#deployed files
+src-id.txt
+src-manifest.json
+src-manifest.csv
