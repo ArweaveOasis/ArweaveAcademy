@@ -4,6 +4,11 @@ This project is a submission to the Frontend Challenge 1: File-based Routing fro
 
 This project demonstrates the usage of the [ARx SDK](https://github.com/permaweb/arx) for interacting with the Arweave network. ARx is a powerful SDK/CLI tool that enables permanent data uploads to Arweave.
 
+## Deployed Website
+
+You can view the deployed website on Arweave at:
+[website](https://wwggsemaehvsfkrodv75bvlgaoxjdp5bdshooa7vvfwsfnqpl43q.arweave.net/tYxpEYAh6yKqLh1_0NVmA66Rv6EcjucD9altIrYPXzc/)
+
 ## Setup
 
 1. Install dependencies:
@@ -41,5 +46,3 @@ This script handles the deployment of your files to the Arweave network. It uses
 ```bash
 npm run deploy
 ```
-
-For more information about the ARx SDK, visit their [GitHub repository](https://github.com/permaweb/arx).
