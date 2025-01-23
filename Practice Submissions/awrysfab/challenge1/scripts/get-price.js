@@ -25,45 +25,39 @@ async function calculateFolderSize(folderPath) {
 
 async function getPrice() {
   try {
-    // Load wallet
     const walletPath = path.join(__dirname, '..', 'wallet.json');
     const wallet = JSON.parse(fs.readFileSync(walletPath, 'utf-8'));
 
-    // Initialize ARx
     const arx = new ARx({
       url: 'https://turbo.ardrive.io',
       token: 'arweave',
       key: wallet
     });
 
-    // Calculate total size of src folder
-    const folderSize = await calculateFolderSize('./src');
-    console.log(`Total folder size: ${(folderSize / 1024).toFixed(2)} KB`);
+    const folderSizeBytes = await calculateFolderSize('./src');
+    const folderSizeKB = folderSizeBytes * 1024; // Convert bytes to kilobytes
+    console.log(`Total folder size: ${(folderSizeBytes / 1024).toFixed(2)} KB`);
 
-    // Get price estimate
-    const price = await arx.getPrice(folderSize);
+    const price = await arx.getPrice(folderSizeKB);
 
-    // Convert winston to AR (1 AR = 1000000000000 winston)
-    const priceInAR = price / 1000000000000;
+    const priceInAR = price.dividedBy(1e12).toFixed(6);
 
     console.log('Estimated price:');
     console.log(`${price} winston`);
-    console.log(`${priceInAR.toFixed(8)} AR`);
+    console.log(`${priceInAR} AR`);
 
-    // Get current balance
-    const balance = await arx.getBalance();
-    const balanceInAR = balance / 1000000000000;
+    const balance = await arx.getBalance(arx.tokenConfig._address);
+    const balanceInAR = balance.dividedBy(1e12).toFixed(6);
 
     console.log('\nCurrent balance:');
     console.log(`${balance} winston`);
-    console.log(`${balanceInAR.toFixed(8)} AR`);
+    console.log(`${balanceInAR} AR`);
 
-    // Check if balance is sufficient
     if (balance >= price) {
       console.log('\n✅ You have sufficient balance to deploy');
     } else {
       console.log('\n❌ Insufficient balance for deployment');
-      console.log(`You need ${(price - balance) / 1000000000000} more AR`);
+      console.log(`You need ${(price - balance).dividedBy(1e12).toFixed(6)} more AR`);
     }
 
   } catch (error) {

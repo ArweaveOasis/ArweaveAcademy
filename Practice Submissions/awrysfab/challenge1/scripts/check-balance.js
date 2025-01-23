@@ -13,8 +13,9 @@ async function checkBalance() {
       key: wallet
     });
 
-    const balance = await arx.getBalance();
-    console.log('Current balance:', balance);
+    const balance = await arx.getBalance(arx.tokenConfig._address);
+    const balanceInAR = balance.dividedBy(1e12).toFixed(6); // Convert Winston to AR
+    console.log('Current balance:', balanceInAR, 'AR');
   } catch (error) {
     console.error('Error checking balance:', error);
   }
