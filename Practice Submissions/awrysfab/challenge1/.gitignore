@@ -1,0 +1,7 @@
+# Dependencies
+node_modules/
+
+# Arweave wallet files
+wallet.json
+arweave-key*.json
+arweave-keyfile*.json
