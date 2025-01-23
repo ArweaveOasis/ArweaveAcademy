@@ -1,6 +1,6 @@
-# Arweave Upload Project
+# Challenge 1: File-based Routing
 
-This project is a solution to the Frontend Challenge 1: File-based Routing from Arweave Academy. The challenge focuses on building a simple website with multiple HTML files that link to each other and deploying it on Arweave. This approach is ideal for simple websites that fit Arweave's permanent storage model and can be served through AR.IO gateways.
+This project is a submission to the Frontend Challenge 1: File-based Routing from Arweave Academy. The challenge focuses on building a simple website with multiple HTML files that link to each other and deploying it on Arweave.
 
 This project demonstrates the usage of the [ARx SDK](https://github.com/permaweb/arx) for interacting with the Arweave network. ARx is a powerful SDK/CLI tool that enables permanent data uploads to Arweave.
 
