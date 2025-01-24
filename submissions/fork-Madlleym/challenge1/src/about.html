@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | My Portfolio</title>
+    <link rel="icon" href="../assets/logo.png" type="image/png" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      header {
+        background: #2c3e50;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+
+      nav {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .nav-links a {
+        color: white;
+        text-decoration: none;
+        margin-left: 2rem;
+        transition: color 0.3s ease;
+      }
+
+      .nav-links a:hover {
+        color: #3498db;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 80px auto 0;
+        padding: 2rem 20px;
+        flex: 1 0 auto; /* This ensures the container takes up available space */
+        width: 100%;
+      }
+
+      .hero {
+        text-align: center;
+        padding: 4rem 0;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 2rem;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 1rem;
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+        color: #666;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+
+      .feature-card {
+        background: white;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .feature-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .feature-card h2 {
+        color: #2c3e50;
+        margin-bottom: 1rem;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 0.8rem 1.5rem;
+        background: #3498db;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+        margin-top: 1rem;
+      }
+
+      .btn:hover {
+        background: #2980b9;
+      }
+
+      footer {
+        background: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        flex-shrink: 0; /* Prevents the footer from shrinking */
+        width: 100%;
+      }
+
+      @media (max-width: 768px) {
+        .nav-links {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">Portfolio</a>
+        <div class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section class="hero">
+        <h1>About Me</h1>
+        <p>
+          I'm a passionate web developer with a keen eye for design and a love
+          for creating meaningful digital experiences.
+        </p>
+      </section>
+
+      <div class="features">
+        <div class="feature-card">
+          <h2>Experience</h2>
+          <p>
+            Over 5 years of experience in web development, working with various
+            technologies and frameworks.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h2>Skills</h2>
+          <p>
+            Proficient in HTML, CSS, JavaScript, React, and various modern web
+            technologies.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h2>Philosophy</h2>
+          <p>
+            Believing in clean, efficient code and user-centered design
+            principles.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
