@@ -48,6 +48,9 @@ Developers need to complete GitHub registration by following these steps:
 
 ## Task Submission
 
+> 📣📣📣 **Due to the recent influx of participants, the size of this repository has grown significantly. we've decided to archive the files in the Submissions folder that have already been merged. This step is being taken to reduce the repository size and ensure that the event can continue smoothly.**  [More Information](./submissions/Archive%20Announcement.md)
+
+
 After each course there will be a series of tasks. These tasks will test whether you have mastered the course content. You will be redirected to the @OpenBuildxyz platform to complete the task and submit a screenshot of the result to your folder in the GitHub repository.
 
 For example, to submit `task1`, follow these steps:
@@ -59,6 +62,8 @@ For example, to submit `task1`, follow these steps:
 5. Submit a Pull Request to this repository. Once your PR is merged, `task1` will be marked as complete.
 
 Developers who complete all the courses and submit the tasks will receive a Level 1 Certification. If you earn all 4 Levels of Certifications in the future, you will be awarded a **Final Graduation Certificate** and become a priority candidate in our talent pool, gaining access to more job opportunities within the ecosystem.
+
+
 
 ## Course Guideline
 
@@ -80,11 +85,11 @@ Developers who complete all the courses and submit the tasks will receive a Leve
 
 <!-- 3. Why should developers care about Arweave？| [Learn]() -->
 
-| Task | Topic | Status |
-|-------|-------|-------|
-| [task1](https://openbuild.xyz/quiz/202501081) | 6 Quizs for "Intro to Arweave" | Ongoing |
-| [task2](https://openbuild.xyz/quiz/202501082) | 8 Quizs for "Intro to Arweave" | Ongoing |
-| [task3](https://openbuild.xyz/quiz/202501083) | 9 Quizs for "Storing Data on Arweave" | Ongoing |
+| Task | Topic | Status | Review |
+|-------|-------|-------|-------|
+| [task1](https://openbuild.xyz/quiz/202501081) | 6 Quizs for "Intro to Arweave" | Ongoing |[Review](https://x.com/ArweaveOasis/status/1881249788186022397) |
+| [task2](https://openbuild.xyz/quiz/202501082) | 8 Quizs for "Intro to Arweave" | Ongoing | --- |
+| [task3](https://openbuild.xyz/quiz/202501083) | 9 Quizs for "Storing Data on Arweave" | Ongoing |--- |
 
 #### Module 2: Basic development on Arweave
 
@@ -126,11 +131,12 @@ Practice challenges will be released continuously, and for each challenge, the B
 
 How to submit the challenge:
 
-1. Create a `challenge1` folder under `submissions/YourName`.
-2. Copy the [challenge1.md](./practice/challenge1.md) file into your `challenge1` folder. You can also create a `readme.md` file to give an introduction/tutorial for your code.
-3. Upload your code and the necessary content to the `submissions/YourName/challenge1` folder.
-4. Submit a Pull Request to this repository.
-5. ⚠️ Each challenge must be submitted separately. A single PR containing multiple challenges will be closed.
+1. Navigate to the `practice submissions` folder and create a new folder named after your **GitHub username**, e.g. `practice submissions/YourName`.
+2. Create a `challenge1` folder under `practice submissions/YourName`.
+3. Copy the [challenge1.md](./practice/challenge1.md) file into your `challenge1` folder. You can also create a `readme.md` file to give an introduction/tutorial for your code.
+4. Upload your code and the necessary content to the `practice submissions/YourName/challenge1` folder.
+5. Submit a Pull Request to this repository, and make sure the **Pull Request name** is `YourName Challenge1`.
+6. ⚠️ Each challenge must be submitted separately. A single PR containing multiple challenges and tasks will be closed.
 
 | Challenge | Type | Tag | Topic | Prize | Status |
 |-------|--------|-------|-------|-------|-------|
