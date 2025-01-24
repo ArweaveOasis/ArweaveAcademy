@@ -131,11 +131,12 @@ Practice challenges will be released continuously, and for each challenge, the B
 
 How to submit the challenge:
 
-1. Create a `challenge1` folder under `practice submissions/YourName`.
-2. Copy the [challenge1.md](./practice/challenge1.md) file into your `challenge1` folder. You can also create a `readme.md` file to give an introduction/tutorial for your code.
-3. Upload your code and the necessary content to the `practice submissions/YourName/challenge1` folder.
-4. Submit a Pull Request to this repository.
-5. ⚠️ Each challenge must be submitted separately. A single PR containing multiple challenges and tasks will be closed.
+1. Navigate to the `practice submissions` folder and create a new folder named after your **GitHub username**, e.g. `practice submissions/YourName`.
+2. Create a `challenge1` folder under `practice submissions/YourName`.
+3. Copy the [challenge1.md](./practice/challenge1.md) file into your `challenge1` folder. You can also create a `readme.md` file to give an introduction/tutorial for your code.
+4. Upload your code and the necessary content to the `practice submissions/YourName/challenge1` folder.
+5. Submit a Pull Request to this repository, and make sure the **Pull Request name** is `YourName Challenge1`.
+6. ⚠️ Each challenge must be submitted separately. A single PR containing multiple challenges and tasks will be closed.
 
 | Challenge | Type | Tag | Topic | Prize | Status |
 |-------|--------|-------|-------|-------|-------|
