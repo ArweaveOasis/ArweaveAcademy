@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styling */
+body {
+  @apply text-gray-900 font-sans;
+  background-image: url('/Animated.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Sesuaikan tingkat kegelapan */
+  z-index: -1; /* Pastikan tetap di belakang teks */
+}
+
+
+
+.container {
+  @apply max-w-7xl mx-auto px-6;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300;
+}
