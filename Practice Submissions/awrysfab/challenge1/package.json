@@ -1,0 +1,17 @@
+{
+  "name": "challenge1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "check-balance": "node scripts/check-balance.js",
+    "get-price": "node scripts/get-price.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@permaweb/arx": "^1.0.0"
+  }
+}
