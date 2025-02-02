@@ -1,0 +1,1 @@
+The Static Site Generation (SSG) approach compiles a website's content at build time, creating a static set of files (HTML, CSS, and optional assets like JavaScript). This is perfect for platforms like Arweave, where server-side code cannot be executed, and the goal is to store the site permanently.

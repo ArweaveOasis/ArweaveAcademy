@@ -1,0 +1,37 @@
+body {
+    background-image: url('../images/crypto_background.webp');
+    /* Replace with your image path */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px 0;
+}
+
+section {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+
+/* Ensuring the images are properly sized within the columns */
+#features img {
+    width: 100%;  /* Makes the image fit the column */
+    height: auto;  /* Keeps the aspect ratio intact */
+    max-width: 200px;  /* Sets a max-width so the image doesn’t get too big */
+}
