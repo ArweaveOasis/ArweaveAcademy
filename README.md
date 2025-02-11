@@ -135,7 +135,7 @@ How to submit the challenge:
 2. Create a `challenge1` folder under `practice submissions/YourName`.
 3. Copy the [challenge1.md](./practice/challenge1.md) file into your `challenge1` folder. You can also create a `readme.md` file to give an introduction/tutorial for your code.
 4. Upload your code and the necessary content to the `practice submissions/YourName/challenge1` folder.
-5. Submit a Pull Request to this repository.
+5. Submit a Pull Request to this repository, and make sure the **Pull Request name** is `YourName Challenge1`.
 6. ⚠️ Each challenge must be submitted separately. A single PR containing multiple challenges and tasks will be closed.
 
 | Challenge | Type | Tag | Topic | Prize | Status |
